@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The Life Chosen — Demo</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#111111">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+</head>
+
+<body>
+  <main id="app" class="app">
+    <header class="topbar">
+      <div class="brand">
+        <div class="title">The Life Chosen</div>
+        <div class="subtitle">Demo: Imagine if this was an actually good game KEKE</div>
+      </div>
+
+      <div class="topbar-actions">
+        <button id="btnNames" class="btn ghost" type="button">Names</button>
+        <button id="btnSave" class="btn ghost" type="button">Save</button>
+        <button id="btnLoad" class="btn ghost" type="button">Load</button>
+        <button id="btnNew" class="btn ghost" type="button">New</button>
+      </div>
+    </header>
+
+    <section class="card">
+      <div id="meta" class="meta"></div>
+      <div id="text" class="text"></div>
+      <div id="choices" class="choices"></div>
+
+      <div class="footer">
+        <button id="btnContinue" class="btn primary hidden" type="button">Continue</button>
+        <div id="toast" class="toast" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <details class="debug">
+      <summary>Debug (optional)</summary>
+      <pre id="debugOut"></pre>
+    </details>
+  </main>
+
+  <!-- Core systems FIRST -->
+  <script src="data/core/callbacks.js"></script>
+  <script src="data/core/driftProfiles.js"></script>
+
+  <!-- Chapter 1 content -->
+  <script src="data/chapter1/scenes.intro.js"></script>
+  <script src="data/chapter1/scenes.firstMeeting.js"></script>
+  <script src="data/chapter1/scenes.meanwhile.js"></script>
+
+  <!-- Aggregator creates window.GAME_SCENES -->
+  <script src="data/chapter2/scenes.recognition.js"></script>
+  <script src="data/chapter2/scenes.proximity.js"></script>
+  <script src="data/chapter2/scenes.selfAwareness.js"></script>
+  <script src="data/chapter2/scenes.dreamCouple.js"></script>
+  <script src="data/chapter2/scenes.graduation.js"></script>
+  <script src="data/chapter2/scenes.meanwhile2.js"></script>
+  <script src="data/scenes.js"></script>
+
+  <!-- Engine LAST -->
+  <script src="game.js"></script>
+  <script>
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", () => {
+        navigator.serviceWorker.register("./sw.js")
+          .then(() => console.log("Service Worker registered"))
+          .catch(err => console.error("SW registration failed:", err));
+      });
+    }
+  </script>
+</body>
+</html>
