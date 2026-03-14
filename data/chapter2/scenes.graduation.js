@@ -136,13 +136,36 @@ They were choosing it.`,
     ],
     choices: [
       {
-        text: "Kiss her.",
-        // Tune thresholds as you like. This is the gate.
-        conditions: { affection: { min: 12 }, trust: { min: 10 }, sharedHistory: { min: 8 } },
+        text: "Close the distance. Let the truth become action.",
+        conditions: {
+          hasFlag: "confess_early",
+          affection: { min: 11 },
+          trust: { min: 10 },
+          sharedHistory: { min: 8 },
+          communication: { min: 9 }
+        },
+        memoryAdd: ["ch2_graduation_crossed_threshold"],
         goto: "ch2_ending_success"
       },
       {
-        text: "Hold her instead.",
+        text: "Close the distance. Let the truth become action.",
+        conditions: {
+          affection: { min: 13 },
+          trust: { min: 11 },
+          sharedHistory: { min: 9 },
+          communication: { min: 10 }
+        },
+        memoryAdd: ["ch2_graduation_crossed_threshold"],
+        goto: "ch2_ending_success"
+      },
+      {
+        text: "Close the distance. Let the truth become action.",
+        memoryAdd: ["ch2_graduation_hesitated_at_threshold"],
+        goto: "ch2_ending_failure"
+      },
+      {
+        text: "Stay careful. Hold her instead.",
+        memoryAdd: ["ch2_graduation_chose_restraint"],
         goto: "ch2_ending_failure"
       }
     ]
@@ -294,7 +317,7 @@ A real one.`,
       {
         text: "Continue.",
         action: { type: "setFlag", key: "ch2_confession_success" },
-        goto: "mw2_01_leaving_parking_lot"
+        goto: "ch2_06_diverging_paths"
       }
     ]
   },
@@ -305,67 +328,73 @@ A real one.`,
     age: 18,
     title: "Ending B — Confession Failure",
     pages: [
-`He didn’t kiss her.
+`He moved first.
 
-Not because he didn’t want to.
+Not dramatically.
+Not with the reckless confidence other boys performed in hallways and at parties and all the loud places where uncertainty was treated like weakness.
 
-Because he felt the edges of the moment—how fragile it was, how much of their story had survived through patience and restraint and letting things unfold without forcing them into a shape too early.
+He just leaned in.
 
-He stepped closer anyway and wrapped his arms around her.
+Carefully.
+Honestly.
+Far enough that the space between them changed from possibility into decision.
+
+And then, in the final inch, something in him caught.
+
+It was not a single feeling.
+It was too many at once:
+
+the years behind them
+the fear of misreading gentleness as permission
+the old instinct to protect what mattered by handling it softly
+the sudden sick certainty that if he forced the moment half a beat too early, he would feel the mistake for years
+
+So the motion changed.
+
+Instead of kissing her, he stepped closer and wrapped his arms around her.
 
 A full hug.
+Not a brush. Not a half-measure. Not deniable.
 
-Not a half-touch. Not a brush. Not deniable.
+Her breath left her in a small sound that could have meant surprise, disappointment, relief, or some careful combination of all three.
 
-Her breath left her in a small sound that could have been disappointment, could have been relief.
+Then she hugged him back tightly enough that he felt the truth of one thing immediately:
 
-Then she hugged him back tightly—tight enough that he felt the truth in her grip: she wasn’t indifferent.
+she was not untouched by this.
+Whatever had failed here had failed inside timing, not indifference.`,
 
-She was careful.
+`They stayed like that longer than most people hug.
 
-They stayed like that longer than most people hug, long enough that the hug stopped being “polite” and became its own kind of statement.
+Long enough that the embrace stopped looking polite and became its own kind of confession — one translated too late, or not quite all the way, into the form the moment had asked for.
 
-When they finally separated, her eyes searched his face with a quiet intensity.
+When they finally separated, her eyes searched his face with a quiet intensity that made lying feel impossible.
 
 No anger.
 
 No mockery.
 
-Just the question that lived behind her expression:
+Just a question he could not answer cleanly even for himself:
 
-Are we still choosing this, even if we’re not crossing the line tonight?`,
+Were they still being careful?
 
-`“Okay,” she said softly.
+Or had he just watched fear put on the clothes of care again?
 
-The word didn’t mean “no.”
+“Okay,” she said softly.
 
-It meant: not yet.
+The word didn’t mean no.
+It didn’t mean yes either.
 
-Or: not like this.
-
-Or: I’m not sure.
+It meant: I felt that.
+It meant: I know you stopped.
+It meant: we are still standing inside something unfinished.
 
 All of those meanings can fit inside a single syllable when someone is trying to be gentle.
 
-*BOY_NAME* nodded, feeling both relief and a small grief he didn’t want to name.
+*BOY_NAME* nodded, feeling both relief and a small grief he did not want to name.
 
-He told himself he was protecting what they had.
-
-But protection can be a kind of fear.
-
-He didn’t know which this was.
-
-They stood near her car, the lamp overhead humming like a nervous insect.
-
-He noticed the way her hands fidgeted with the edge of her gown.
-
-He noticed the way she kept her shoulders squared, as if holding herself steady.
-
-He wished he could rewind the last minute and try again—try with more courage, or more clarity, or less caution.
-
-But you don’t get to rewind moments like this.
-
-You only get to live with what you chose.`,
+Because he had tried.
+Because the trying had revealed the limit.
+Because limits, once discovered, do not disappear just because nobody speaks them aloud.`,
 
 `They talked for a while, because silence would have been too loud.
 
@@ -381,51 +410,52 @@ She laughed softly, and it loosened something in his chest.
 
 They spoke about summer. About plans. About college and work and the way adulthood was approaching like weather.
 
-They spoke about the future as if it was neutral.
+They spoke about the future as if it were neutral.
 
-But underneath the conversation, another truth pressed:
+But underneath the conversation, another truth kept pressing against everything ordinary:
 
 Distance is coming.
-
 Schedules are coming.
-
 Other people are coming.
-
 The ease of seeing each other every day is ending.
 
-And if they didn’t build structure, they would be tested by the simple mechanics of time.
+And if they did not build structure, they would be tested by the simple mechanics of time.
 
-He wondered if kissing her would have made things stronger—or if it would have made things more complicated.
+He wondered whether a kiss would have made things clearer.
+He wondered whether clarity had been exactly what frightened him.
+He wondered whether the problem had been lack of courage, lack of readiness, or simply that some truths can be spoken before they can be carried.
 
-He wondered if he had missed the right time by being too careful.
+He had no answer.
 
-He wondered if “right time” was just an excuse people use when they’re afraid to risk being chosen—or risking rejection.`,
+That was the worst part.
+
+Mistakes are easier to survive when they have names.`,
 
 `Eventually, the parking lot had nearly emptied.
 
 Their gowns felt heavier now, like wearing something you were supposed to have outgrown.
 
-She reached for his hand—not interlaced, just held, palm to palm for a moment.
+She reached for his hand — not interlaced, just held, palm to palm for a moment.
 
 “Whatever happens,” she said quietly, “I don’t want to lose you.”
 
 The sentence struck him like a bell.
 
-Because it was the same fear he’d been carrying, spoken plainly.
+Because it was the same fear he had been carrying, spoken plainly.
+Because it was both comfort and warning.
+Because wanting not to lose someone is not the same thing as knowing how to keep them.
 
 “I don’t want to lose you either,” he said.
 
 And he meant it.
-
 He meant it so hard it frightened him.
 
-Because meaning it doesn’t guarantee anything.
-
+Because meaning it does not guarantee anything.
 It only guarantees that losing would hurt.
 
 They stood there a moment longer, both of them trying to memorize the other’s face in the light that made everything look slightly unreal.
 
-Then they separated—slowly, reluctantly—and the space between them felt too wide too quickly.
+Then they separated — slowly, reluctantly — and the space between them felt too wide too quickly.
 
 As he drove home, he kept one hand on the steering wheel where hers had been earlier, and he wondered whether waiting is always wisdom…
 
@@ -435,13 +465,13 @@ Either way, the hinge had turned.
 
 Adulthood was coming.
 
-And whatever they were, it would have to survive the next part.`,
+And whatever they were, it would have to survive the next part.`
     ],
     choices: [
       {
         text: "Continue.",
         action: { type: "setFlag", key: "ch2_confession_failure" },
-        goto: "mw2_01_leaving_parking_lot"
+        goto: "ch2_06_diverging_paths"
       }
     ]
   }

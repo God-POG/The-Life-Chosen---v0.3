@@ -1,491 +1,508 @@
 // data/chapter1/scenes.firstMeeting.js
-// Chapter 1 — First Meeting (Fully Expanded, Multi-Page)
+// Chapter 1 — First Meeting
 
 window.CH1_FIRST_MEETING = [
 
-  {
-    id: "meet_01",
-    phase: "first_meeting",
-    age: 9,
-    title: "The Collision",
-    pages: [
+{
+id: "meet_01",
+phase: "first_meeting",
+age: 5,
+title: "First Meeting",
 
-`The ditch marked the end of maintenance.
+pages: [
 
-Grass grew taller here. Weeds ignored the idea of boundaries. The oak tree leaned at a slight angle, roots exposed in places where rain had eaten away at the soil over the years.
+`The pavement ended where the neighborhood's certainty ran out.
 
-*BOY_NAME* liked this spot because it felt unobserved.
+Beyond the final driveway, the asphalt thinned into a cracked ribbon before surrendering completely to dirt and stubborn grass. The line between maintained and forgotten wasn't sharp. It blurred gradually, the way rules sometimes do when adults stop paying attention.
 
-The houses behind him had windows. Windows meant eyes. Eyes meant expectation.
+Heat shimmered above the dry ground, bending the distant houses into soft wavering shapes.
 
-The ditch only had insects and wind.
+*BOY_NAME* stood at that boundary with his hands deep in the pockets of his denim shorts.
 
-He had been running — not fast enough to win anything, just fast enough to feel his heartbeat in his throat. The ground dipped slightly near the oak tree, and he adjusted instinctively, arms pumping.
+Behind him, the house continued existing in quiet mechanical rhythms — the refrigerator humming steadily in the kitchen, the hallway clock ticking with patient precision, the faint muffled voices of a television drifting through the walls.
 
-He didn’t see her until the last possible second.
+The world back there was predictable.
 
-A flicker of motion from the other side of the tree. A shadow cutting across sunlight. The snap of a twig under someone else’s shoe.
+Out here the sounds were different.
 
-He turned at the same moment she stepped around the trunk.
+Crickets clicked invisibly in the tall grass. Wind pushed through dry weeds with a soft whispering sound like paper being shuffled somewhere far away. The air smelled like baked dirt, pine needles, and faint damp soil where sprinklers barely reached the edge of the yard.
 
-Two trajectories intersecting without permission.`,
+He stepped off the pavement.
 
-`There is a specific kind of silence that happens right before impact.
+The ground felt softer immediately.
 
-It isn’t quiet.
+Less certain.
 
-It’s compressed.
+He took another step.
 
-Like the world has inhaled and forgotten to exhale.
+It felt like walking somewhere adults knew existed but didn't consider important enough to explain.`,
 
-His untied lace caught on a root.
 
-Her foot slid on loose dirt.
+`The land dipped slightly into a shallow drainage ditch.
 
-They collided shoulder to shoulder, and for one suspended second, neither of them fell.
+Concrete lined its sides, cracked by years of weather and slow shifting ground. Most days it carried only what the rain left behind. Today small puddles remained in the deeper parts, reflecting fragments of sky like broken mirrors scattered along the channel.
 
-Then gravity remembered them.
+Green moss clung stubbornly to the concrete edges. Weeds forced their way through seams where the ditch had tried and failed to stay solid.
 
-They went down into the grass in a tangle of limbs and dust, oak leaves scattering upward like startled birds.
+*BOY_NAME* crouched to look closer.
 
-The smell hit first: dry earth, crushed greenery, the faint metallic scent of scraped skin.
+A dragonfly hovered above the water. Its wings flashed silver when sunlight struck them, vanishing again when it shifted direction. Beneath the surface, thin plant stems moved slowly with the weight of the water.
 
-*BOY_NAME* landed hard on one knee. A sharp sting shot upward, bright and immediate.
+Everything here seemed alive in quiet ways.
 
-He sucked in air through his teeth.
+At the far end of the ditch stood the oak tree.
 
-He didn’t want to make a sound.
+Its trunk rose wide and steady from the earth. Thick roots pushed through the soil like old knuckles where rain had eaten away the ground over many seasons. Shade pooled beneath its branches, darker and cooler than the bright afternoon beyond.
 
-Beside him, she exhaled sharply — not a cry, not laughter — something between the two.`,
+His mother called this place "the bend in the road."
 
-`He rolled onto his side and blinked at the sky through the canopy of leaves.
+But to *BOY_NAME*, it felt more like something else.
 
-Sunlight fractured into shifting shards overhead. The cicadas didn’t stop screaming. The world hadn’t paused for them.
+A pause.
 
-He sat up too quickly and felt the blood rush behind his eyes.
+A place where the neighborhood stopped pretending it controlled everything.`,
 
-She was sitting too, brushing dirt from her palms.
 
-Her hair had come loose from whatever held it back. A dark curl clung to her cheek with sweat.
+`He stepped beneath the branches.
 
-There was a line of red forming on her chin where bark had grazed skin.
+The air changed immediately.
 
-They stared at each other.
+The sunlight filtered through layers of leaves, breaking into soft green light across the dirt. The ground smelled damp here, like soil that remembered rain longer than the rest of the yard.
 
-Not angry.
+He pressed his hand against the bark.
 
-Not friendly.
+The surface was rough, warm from the sun. Small ridges scratched lightly across his palm.
 
-Startled.
+For a moment he simply stood there.
 
-The kind of stare children hold when they realize something has happened that wasn’t supposed to — and now they must decide what it means.`
+The quiet under the oak wasn't empty.
 
-    ],
-    choices: [
-      {
-        text: "Apologize immediately.",
-        effects: { trust: +1, communication: +1, sharedHistory: +1 },
-        memoryAdd: ["met_apologized_first"],
-        goto: "meet_02"
-      },
-      {
-        text: "Ask if she's hurt.",
-        effects: { affection: +2, trust: +1, sharedHistory: +1 },
-        memoryAdd: ["met_checked_her_first"],
-        goto: "meet_02"
-      },
-      {
-        text: "Laugh awkwardly to cover embarrassment.",
-        effects: { resilience: +1, communication: -1, sharedHistory: +1 },
-        memoryAdd: ["met_laughed_it_off"],
-        goto: "meet_02"
-      }
-    ]
-  },
+It held tiny movements — insects shifting in the leaves, wind brushing gently through the canopy, the faint distant murmur of life continuing somewhere far beyond the ditch.
 
+Then a twig snapped.
 
-  {
-    id: "meet_02",
-    phase: "first_meeting",
-    age: 9,
-    title: "Recognition Without Names",
-    pages: [
+The sound was small.
 
-`Up close, she didn’t look like someone from his immediate orbit.
+But in the stillness beneath the branches it felt sharp.
 
-Not from his classroom.
+*BOY_NAME* turned too quickly and nearly tripped over one of the exposed roots.
 
-Not from his usual playground rotation.
+A girl stood a few feet away.
 
-There was something unfamiliar about her — not foreign, just not catalogued.
+She had stopped mid-step, as if she had been trying to move quietly and suddenly decided it wasn't worth pretending anymore. Dust lifted slightly around her sneakers as both feet settled into the dirt.`,
 
-Her eyes were darker than he expected. Not dramatic-dark. Just steady.
 
-They held his gaze a moment longer than most children did.
+`Her sneakers were worn along the rubber edges, the white faded to dull gray.
 
-“You ran into me,” she said.
+Grass stains marked the lower edge of her dress where the fabric brushed her knees. A yellow ribbon held her hair back, though the knot looked loose enough that it might have been tied in a hurry.
 
-It wasn’t accusatory. It was observational. Clinical, almost.
+For several seconds neither of them spoke.
 
-He felt heat rise in his face — not from the sun this time.
+They simply looked at each other with the startled stillness of two people who had both expected to be alone.
 
-“I didn’t mean to,” he replied quickly. His voice sounded thinner than he wanted.
+*BOY_NAME* felt an awkward urge to adjust something — his hands, his stance, the way his face looked.
 
-He cleared his throat. “My shoe caught.”
+But the girl didn't step back.
 
-She glanced down.
+She stood easily where she was, like the quiet beneath the oak already belonged to her.
 
-His lace was wrapped around a root like a trap he’d set for himself.
+Wind moved softly through the branches overhead.
 
-She nodded once, slow and thoughtful, as if filing that detail somewhere private.`,
+The smell of sun-warmed grass drifted between them.`,
 
-`He noticed her hands.
 
-There was dirt under her fingernails too.
+`"You're far from home," she said.
 
-Not delicate dirt — thick, packed-in earth.
+Her voice wasn't suspicious.
 
-She wasn’t a porch-sitter.
+It sounded more like someone stating a fact they had already decided was true.
 
-She had the look of someone who moved through places without asking if they were allowed.
+*BOY_NAME* glanced briefly toward the pavement behind him.
 
-A small scrape marked her knee. She brushed at it absentmindedly.
+"I was looking for bugs," he said.
 
-He wanted to look brave.
+She tilted her head slightly.
 
-He wanted to look like this didn’t matter.
+"Out here?"
 
-Instead, he felt painfully aware of his scraped skin, the sting radiating outward in pulses.
+"I live nearby."
 
-He suddenly understood that this moment would either shrink or grow depending on what he did next.
+He almost said more — something about how this still counted as the neighborhood, how it wasn't really far.
 
-Nine-year-olds don’t have language for that realization.
+But the way she looked at him made it clear she already understood the difference between the sidewalk and here.
 
-But they feel it.`,
+She stepped closer.
 
-`“Are you hurt?” he asked — or maybe apologized — or maybe laughed awkwardly.
+Then she reached into her pocket.
 
-Whatever he chose, it came out slightly off-center.
+When her hand came out again, a stone rested in her palm.
 
-She tilted her head.
+It was smooth and dark gray, worn round by water into a perfect oval. Sunlight slid across its polished surface when she turned it slightly.
 
-“I’m fine.”
+"I found it by the water," she said.
 
-A beat.
+The gesture didn't feel random.
 
-“You?”
+It felt deliberate.
 
-He nodded too fast.
+Like the beginning of something.
 
-“Yeah.”
+Or maybe a small test.
 
-They sat in silence for a moment.
+*BOY_NAME* looked at the stone.
 
-Not uncomfortable exactly.
+Then at her hand.
 
-Charged.
+His own hands stayed inside his pockets.
 
-The oak tree above them creaked softly in the heat, leaves shifting in small restless motions.
+He could reach out.
 
-The ditch behind them smelled faintly of old water and weeds.
+Or he could leave them where they were.`
 
-Somewhere down the block, a lawnmower cut out mid-engine, leaving the air suddenly heavier.
+],
 
-He became aware of the shape of her presence — not just her face, but the space she occupied in the world.
+choices: [
 
-She didn’t seem like someone passing through.
+{
+text: "Reach out and take the stone.",
+effects: { trust: +2, sharedHistory: +1, affection: +1 },
+memoryAdd: ["meet_stone_accepted"],
+goto: "meet_02"
+},
 
-She seemed anchored.`
+{
+text: "Leave your hands in your pockets. Ask what it is like near the water.",
+effects: { resilience: +1, communication: +1, sharedHistory: +1 },
+memoryAdd: ["meet_stone_declined_polite"],
+goto: "meet_02"
+},
 
-    ],
-    choices: [
-      {
-        text: "Admit you're embarrassed.",
-        effects: { communication: +2, trust: +1, sharedHistory: +1 },
-        memoryAdd: ["met_admitted_embarrassed"],
-        goto: "meet_03"
-      },
-      {
-        text: "Ask what she was doing out here.",
-        effects: { communication: +1, affection: +1, sharedHistory: +1 },
-        memoryAdd: ["met_asked_what_doing"],
-        goto: "meet_03"
-      },
-      {
-        text: "Offer your hand to help her stand.",
-        effects: { affection: +1, trust: +1, sharedHistory: +1 },
-        memoryAdd: ["met_offered_hand"],
-        goto: "meet_03"
-      }
-    ]
-  },
+{
+text: "Hold out an empty palm—halfway. Let her decide.",
+effects: { trust: +1, communication: +1, sharedHistory: +1 },
+memoryAdd: ["meet_stone_halfway"],
+goto: "meet_02"
+}
 
+]
 
-  {
-    id: "meet_03",
-    phase: "first_meeting",
-    age: 9,
-    title: "The Question That Almost Happens",
-    pages: [
+},
 
-`They stood slowly.
 
-The grass pressed flat beneath where they had fallen, marking the spot like evidence.
+{
+id: "meet_02",
+phase: "first_meeting",
+age: 5,
+title: "First Meeting",
 
-She brushed at her shorts again. He wiped his palms against his own shirt.
+pages: [
 
-“I was just walking,” she said eventually.
+`"My mom says it gets wild out here," he said. "But I don't see anything."
 
-He nodded.
+The girl smiled faintly.
 
-“I run here sometimes.”
+"That's because you're looking for the wrong thing."
 
-“Why?”
+He frowned.
 
-He hadn’t expected that.
+"What's the right thing?"
 
-He looked around as if the ditch might answer for him.
+Instead of answering immediately, she glanced toward the ditch where a beetle struggled across the thin surface of the water.
 
-“I don’t know.”
+"It isn't scary," she said after a moment. "People just say that when they don't know a place."
 
-It was the most honest answer he had.
+She said it calmly.
 
-She didn’t laugh.
+Like someone who had spent enough afternoons here to understand the difference.
 
-She didn’t press.
+*BOY_NAME* realized he had never seen anyone else standing beneath this tree before.`,
 
-She simply accepted it.
 
-Which somehow made it heavier.`,
+`"Do you live near here?" he asked.
 
-`He became aware of how close they were standing.
+"On the other side."
 
-Not touching.
+She gestured loosely beyond the ditch, toward where the houses stopped lining up neatly and the streets became harder to follow.
 
-But within reach.
+She didn't offer a street name.
 
-He could see the faint freckles across the bridge of her nose. The way her eyebrows pulled slightly inward when she concentrated.
+She didn't ask for his.
 
-She wasn’t smiling.
+The conversation stayed strangely balanced — each of them sharing small pieces of information while keeping the rest just out of reach.
 
-But she wasn’t closed off either.
+Behind him, the pavement waited.
 
-It felt like standing at the edge of something invisible.
+Order waited.
 
-If he spoke correctly, maybe it would open.
+But turning around now suddenly felt like missing something important without knowing exactly what.`,
 
-If he spoke wrong, maybe it would close forever.
 
-He didn’t know her name.
+`He stepped closer to the ditch.
 
-He didn’t know if she lived nearby.
+"The water looks deep there," he said.
 
-He didn’t know if this was a one-time accident or the start of something that would repeat.
+She leaned slightly to look down.
 
-He only knew that the moment felt fragile — like glass balanced on a fingertip.`,
+"It's mostly mud."
 
-`He almost asked her name.
+Mostly did not make him feel much better.
 
-He almost offered his.
+A flat stone stuck out from the concrete wall — wide enough for one careful step.
 
-He almost said something larger than he understood.
+She placed her sneaker on it without hesitation.
 
-But voices carry strangely in summer heat.
+Her arms lifted slightly for balance.
 
-From somewhere in the direction of houses, someone called out — distant but sharp.
+Then she pushed off and landed easily on the opposite side.
 
-Her shoulders tensed instantly.
+She turned back toward him.
 
-“I’m coming!” she shouted back.
+Now the distance between them felt different.
 
-The word echoed off siding and fences.
+Not far.
 
-She looked back at him.
+But important.
 
-Something unreadable flickered there.
+The water below was dark enough that he couldn't see the bottom clearly. Mud clung thickly along the edges.
 
-Regret? Annoyance? Curiosity?
+The ground behind him felt safe.
 
-He would think about that look for years without being certain which it was.`
+The ground beside her felt uncertain.
 
-    ],
-    choices: [
-      {
-        text: "Ask her name anyway.",
-        effects: { communication: +2, trust: +1, sharedHistory: +1 },
-        memoryAdd: ["asked_name_childhood"],
-        goto: "meet_04_name_interrupted"
-      },
-      {
-        text: "Tell her your name first.",
-        effects: { communication: +2, trust: +2, affection: +1, sharedHistory: +1 },
-        memoryAdd: ["offered_name_childhood"],
-        goto: "meet_04_name_interrupted"
-      },
-      {
-        text: "Let it remain nameless.",
-        effects: { resilience: +1, affection: +1, sharedHistory: +1 },
-        memoryAdd: ["didnt_exchange_names"],
-        goto: "meet_04_separation"
-      }
-    ]
-  },
+She didn't hurry him.
 
+She simply waited.
 
-  {
-    id: "meet_04_name_interrupted",
-    phase: "first_meeting",
-    age: 9,
-    title: "Interrupted",
-    pages: [
+Like she already believed he would decide.`
 
-`He began to speak.
+],
 
-So did she.
+choices: [
 
-The words collided in the air between them and fell apart.
+{
+text: "Step onto the stone and follow her across.",
+effects: { resilience: +1, sharedHistory: +2, affection: +1 },
+memoryAdd: ["meet_crossed_stone"],
+goto: "meet_03"
+},
 
-She smiled — not wide, just briefly — and that small shift changed the temperature of the entire afternoon.
+{
+text: "Stay on your side. Ask what she sees over there.",
+effects: { communication: +2, sharedHistory: +1 },
+memoryAdd: ["meet_didnt_cross"],
+goto: "meet_03"
+},
 
-“You have grass on your shirt,” she said.
+{
+text: "Warn her to be careful. The mud looks deeper than it seems.",
+effects: { trust: +1, communication: +1, sharedHistory: +1 },
+memoryAdd: ["meet_warned_careful"],
+goto: "meet_03"
+}
 
-She reached forward before he could react.
+]
 
-Her fingers brushed his shoulder.
+},
 
-Warm.
+{
+id: "meet_03",
+phase: "first_meeting",
+age: 5,
+title: "First Meeting",
 
-Light.
+pages: [
 
-Precise.
+`"You should see this," she said.
 
-She plucked a thin blade of green from the fabric and held it up like evidence.
+The words sounded less like a command and more like an invitation.
 
-For a second, neither of them moved.
+Near the base of the oak tree, small purple flowers had gathered between the thick ridges of root and bark.
 
-It was nothing.
+"They only grow here," she said quietly.
 
-It was everything.`,
+*BOY_NAME* stepped closer.
 
-`The voice called again from the distance.
+The shade beneath the tree felt cooler now. The scent of damp soil mixed with something faintly sweet from the tiny blossoms.
 
-More insistent now.
+The flowers were small.
 
-“I really have to go,” she said.
+Easy to miss.
 
-It sounded reluctant.
+If she hadn't pointed them out, he might have walked past without ever noticing.`,
 
-Or maybe he imagined that later.
 
-She dropped the blade of grass near his shoe.
+`He lifted his hand toward one of the petals.
 
-It landed between them like a small marker.
+Then hesitated.
 
-“I’ll see you,” she said.
+At home his mother always said not to touch the flowers unless he asked first.
 
-Not “maybe.”
+But this wasn't the garden.
 
-Not “if.”
+There were no fences here.
 
-Just: I’ll see you.
+No signs explaining what was allowed.
 
-And then she turned and stepped away from the oak tree, moving lightly over uneven ground as if she knew exactly where her feet belonged.`
+He looked at the girl.
 
-    ],
-    choices: [
-      {
-        text: "Wave goodbye.",
-        effects: { trust: +1, affection: +1, sharedHistory: +1 },
-        memoryAdd: ["wave_goodbye"],
-        goto: "meet_05_end"
-      },
-      {
-        text: "Watch silently as she leaves.",
-        effects: { sharedHistory: +1, resilience: +1 },
-        memoryAdd: ["watched_silently"],
-        goto: "meet_05_end"
-      }
-    ]
-  },
+She crouched beside the roots, watching a tiny bug crawl along the bark.
 
+"They fold back if you pinch them," she said.
 
-  {
-    id: "meet_05_end",
-    phase: "first_meeting",
-    age: 9,
-    title: "The Mark Left Behind",
-    pages: [
+"But if you're careful, they stay open."
 
-`She reached the sidewalk and paused.
+She spoke like someone who had learned by trying.
 
-Not long enough to make a scene.
+Not by being told.
 
-Just long enough to glance back toward the ditch.
+That made the place feel even more real.
 
-He wasn’t sure if she could see him clearly through the glare.
+His hand hovered above the flowers.
 
-But he felt seen anyway.
+Curiosity pulled one way.
 
-Then she turned and disappeared around the corner.
+Caution pulled the other.`
 
-The oak tree resumed being a tree.
+],
 
-The cicadas resumed their relentless rhythm.
+choices: [
 
-The world returned to scale.
+{
+text: "Touch one flower gently.",
+effects: { sharedHistory: +1, affection: +1 },
+memoryAdd: ["meet_touched_purple_flowers"],
+goto: "meet_04"
+},
 
-But something had shifted.
+{
+text: "Keep your hand back and ask how she knows.",
+effects: { communication: +2, sharedHistory: +1 },
+memoryAdd: ["meet_asked_about_flowers"],
+goto: "meet_04"
+},
 
-He looked down at the blade of grass near his shoelace.
+{
+text: "Let her guide your hand.",
+effects: { trust: +2, affection: +1, sharedHistory: +1 },
+memoryAdd: ["meet_guided_hand_flowers"],
+goto: "meet_04"
+}
 
-He crouched and picked it up.
+]
 
-It was dry and thin between his fingers.
+},
 
-He rolled it once.
+{
+id: "meet_04",
+phase: "first_meeting",
+age: 5,
+title: "First Meeting",
 
-Twice.
+pages: [
 
-Then let it fall back to the dirt.
+`"Where do you go when it gets dark?" he asked.
 
-He tied his lace carefully this time, double-knotting it like preparation mattered.`,
+She thought for a moment.
 
-`On the walk home, the neighborhood looked the same.
+"Home," she said.
 
-Driveways.
+He hesitated.
 
-Mailboxes.
+"Not here?"
 
-Sprinklers ticking.
+She smiled slightly.
 
-But he moved through it differently.
+"I sleep in a bed like yours."
 
-The air felt denser, like it carried something new he hadn’t known to expect.
+The answer made her seem more ordinary.
 
-He didn’t know her name.
+And somehow more mysterious at the same time.
 
-He didn’t know if he would see her again tomorrow or never.
+Then she looked directly at him.
 
-But under the ordinary weight of the summer afternoon, something had anchored itself.
+"But sometimes I come back here before I sleep."
 
-A memory.
+The sentence felt like something quietly shared.
 
-A place.
+A secret she had decided he was allowed to hear.`,
 
-An unfinished sentence.
 
-And though he couldn’t articulate it, even at nine years old he understood this:
+`Evening had begun creeping across the neighborhood.
 
-Some meetings are small on the surface.
+A kitchen light flickered on in one of the houses down the street. Somewhere farther away a screen door slammed shut.
 
-But they leave a mark that waits patiently for the rest of your life to catch up to it.`
-    ],
-    choices: [
-      {
-        text: "Continue.",
-        goto: "mw_01_childhood_to_adolescence"
-      }
-    ]
-  }
+Then she asked:
+
+"Who are you?"
+
+The question sounded simple.
+
+But suddenly his name felt heavier than usual.
+
+Saying it would make the moment real.
+
+Something that could be remembered clearly later.
+
+He could say his name.
+
+He could ask for hers.
+
+Or he could leave the moment exactly the way it was.`,
+
+
+`A voice called from the street.
+
+"Time!"
+
+The voice belonged to an adult — sharp and familiar in the way voices become when they expect an answer.
+
+*BOY_NAME* turned instinctively.
+
+When he looked back, she was already moving.
+
+She ran toward the bend in the road, her sneakers striking the ground in quick soft beats.
+
+Within seconds she disappeared around the corner.
+
+The quiet returned.
+
+*BOY_NAME* stood beneath the oak tree alone.
+
+The ditch was still just a ditch.
+
+The oak was still just a tree.
+
+But the place felt different now.
+
+Because it held a moment that hadn't finished yet.`
+
+],
+
+choices: [
+
+{
+text: "Say your name, even if she can't hear it.",
+effects: { communication: +2, trust: +1, sharedHistory: +1 },
+memoryAdd: ["meet_said_name_too_late"],
+goto: "meet_05_end"
+},
+
+{
+text: "Call after her and ask her name.",
+effects: { communication: +2, affection: +1, sharedHistory: +1 },
+memoryAdd: ["meet_asked_her_name_too_late"],
+goto: "meet_05_end"
+},
+
+{
+text: "Stay silent and keep the moment unnamed.",
+effects: { resilience: +1, sharedHistory: +2 },
+memoryAdd: ["meet_left_unnamed"],
+goto: "meet_05_end"
+}
+
+]
+
+}
 
 ];

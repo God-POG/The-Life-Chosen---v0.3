@@ -1,92 +1,127 @@
 // data/chapter1/scenes.meanwhile.js
-// Chapter 1 — Meanwhile (bridges into Chapter 2)
-// Expanded, multi-page, lore-heavy, same IDs/gotos/profiles.
+// Chapter 1 — Meanwhile (Age 9 -> 10)
+// Improved prose, pacing, and emotional continuity.
+// Keeps same IDs / flags / memory tags so it can slot into the current structure.
 
 window.CH1_MEANWHILE = [
   {
     id: "mw_01_childhood_to_adolescence",
     phase: "meanwhile",
-    age: 12,
+    age: 9,
     title: "Meanwhile",
     pages: [
-`Years don’t arrive all at once.
+`Years still do not arrive all at once.
 
-They come quietly—one ordinary day stacked on another—until you realize the calendar has been moving without your permission.
+At nine, growing up does not feel dramatic.
 
-At twelve, *BOY_NAME* is no longer the boy with permanently untied shoes, but he is not yet anything else. He is all elbows and half-grown confidence, full of sudden moods he can’t explain and embarrassments he can’t name without making them worse.
+It feels like shoes becoming tight without warning. It feels like sleeves ending a little too high above the wrist. It feels like afternoons shrinking at the edges because school, homework, dinner, and bedtime now divide the day more neatly than they used to.
 
-The house is the same: the refrigerator hum, the hallway photos, the same worn spot in the carpet where people always turn too sharply.
+Nothing announces the change.
 
-But he is different in the way a room feels different when the furniture has been shifted just a few inches.
+The change simply begins happening.
 
-Not enough for anyone to comment.
+At home, the rhythms remain dependable.
 
-Enough for him to notice every time he passes through.`,
+The refrigerator still hums in the kitchen. Plates still appear on the table in their usual places. His mother still asks how school was in the calm voice that makes the question feel routine rather than invasive. His father still notices things without saying much at first, as if observation itself is a kind of care.
 
-`The ditch becomes just a place.
+The house keeps doing what it has always done.
 
-The oak tree becomes just a tree.
+It holds shape around him.
 
-And yet some part of him keeps returning there—not always with his feet, but with his mind. The memory is not a full scene anymore. It doesn’t play like a movie. It plays like a handful of fragments that refuse to dissolve:
+But *BOY_NAME* is beginning to understand that growing older means carrying parts of yourself outside the house too—into classrooms, onto sidewalks, into conversations with other children, and toward the ditch and the oak tree and whatever waits there when the day opens wide enough to let him go.`,
 
-• the smell of dry earth when it’s been baked all day  
-• the sting of scraped knees  
-• the warmth of fingers brushing his shoulder  
-• the feeling, brief and impossible to prove, of being seen without hiding
+`The oak tree is not imaginary anymore.
 
-Sometimes he tries to recall her face and finds the details won’t hold. Childhood doesn’t archive faces well. Childhood archives posture. Tone. The shape of a moment.
+That matters more than he knows how to explain.
 
-He wonders, occasionally, if she remembers.
+It is not some half-forgotten corner of summer that can be dismissed later as a childish feeling. It is a real place, one he has returned to often enough that his feet know the path and his eyes look for the flat crossing stone without thinking.
 
-Then he tells himself not to wonder.
+The ditch is familiar now.
 
-Wondering feels like wanting.
+The bend in the road is familiar.
 
-Wanting feels dangerous when you don’t know what to do with it.`,
+Even the particular change in air beneath the branches—the cooler smell of dirt and leaves and shade—has become something his body recognizes before his mind names it.
 
-`Middle school teaches him that the world is loud about its definitions.
+And *GIRL_NAME* is not just the girl from the first afternoon anymore either.
 
-You are either popular or you aren’t.
+She is part of the map now.
 
-You are either funny or you’re trying too hard.
+Part of the hidden shape his life has taken between home and the far edge of the neighborhood.
 
-You are either chosen or left standing near the wall pretending you wanted to be there.
+Still, something has changed.
 
-He learns how to look like he isn’t paying attention while paying attention to everything.
+Not broken.
 
-He learns how to keep his voice steady when it wants to crack.
+Changed.
 
-He learns that some boys survive by being loud and some survive by being invisible.
+The afternoons do not last forever. Some days one of them gets there late. Some days the weather turns first. Some days homework waits at home, or dinner comes earlier than expected, or some ordinary responsibility pulls harder than curiosity.
 
-He becomes something in between: quiet, observant, careful with his words.
+Nothing dramatic happens.
 
-At home, his mother asks how school is and he says “fine” in the practiced tone that makes adults stop asking follow-ups.
+That is what makes the change difficult to name.
 
-His father watches him across the dinner table sometimes with an expression that is not judgment, not disappointment—just a kind of tired concern, like he recognizes the awkwardness of becoming.
+Childhood does not always end by shattering.
 
-No one talks about the oak tree.
+Sometimes it narrows by degrees.`,
 
-No one even knows it matters.
+`He begins to notice that meaning does not always arrive with noise.
 
-That’s part of what makes it matter.`,
+Sometimes it arrives quietly, the way his childhood home taught him most important things arrive: through habits, repeated returns, and moments that do not look like much to anyone standing outside them.
 
-`The memory returns in the strangest places.
+The oak tree becomes one of those things.
 
-When he smells freshly cut grass and the air is too hot for the season.
+Not because every afternoon there changes the world.
 
-When his shoulder brushes someone’s in a hallway and his skin reacts like it’s been startled.
+Because the place has started to hold time.
 
-When he hears someone laugh—soft, brief—and his brain tries to place it as if laughter could be a fingerprint.
+The first stone.
+The treasure.
+The questions she asks when the afternoon gets quiet.
+The feeling that whatever exists between them is real even when neither of them knows exactly what to call it.
 
-Sometimes, late at night, he lies in bed and rehearses a version of the meeting where he asked her name and she answered and he remembered it perfectly.
+At school, other children are loud about everything.
 
-Sometimes he imagines that he did tell her his name and she kept it like a secret, the way he kept her touch.
+Who is best friends with whom.
+Who got picked first.
+Who cried.
+Who lied.
+Who said something mean and then pretended it was a joke.
 
-He doesn’t realize yet that this is a kind of practice.
+Their lives seem to happen on the surface.
 
-A rehearsal for the person he will become: someone who carries meaning quietly until life forces it into the open.
+But under the oak, *BOY_NAME* has started learning something else:
+that some of the most important parts of life are not the parts people announce.
 
-When he thinks about that day—about the oak tree and the ditch and the moment that almost became a sentence—what does he do with it?`
+They are the parts that gather slowly.
+
+The parts that return.
+
+The parts that last long enough to change the way you notice the world.`,
+
+`By ten, the world will begin asking a little more of him.
+
+Not all at once.
+
+Just a little more structure.
+A little more self-consciousness.
+A little more awareness that time does not pause simply because something matters.
+
+And so the question is not whether the oak tree mattered.
+
+It did.
+
+The question is what *BOY_NAME* does with that knowledge as childhood starts becoming something slightly older—still soft in places, still unfinished, but no longer as endless as it once seemed.
+
+When he thinks about the oak tree, about *GIRL_NAME*, and about the first years of knowing something mattered before he had the language for it, what does he do with it?
+
+Does he protect it?
+Shape it?
+Dismiss it?
+Follow it?
+
+The answer will not look large from the outside.
+
+But some of the choices that matter most never do.`
     ],
     choices: [
       {
@@ -119,53 +154,52 @@ When he thinks about that day—about the oak tree and the ditch and the moment 
   {
     id: "mw_01_apply_guarded",
     phase: "meanwhile",
-    age: 12,
+    age: 9,
     title: "Meanwhile",
     pages: [
 `You put it away.
 
-Not denial—storage.
+Not because it means nothing.
 
-You learn how to live with a feeling without feeding it. You learn to place memories in the back of your mind the way your mother places winter clothes into labeled bins: not because they’re useless, but because it isn’t the season for them.
+Because keeping something safe and keeping it visible are not always the same thing.
 
-When the oak tree appears in your thoughts, you redirect. You focus on homework. On chores. On whatever noise the world offers you as an alternative.
+This makes sense to you. It fits the world you came from.
 
-You become good at avoiding the moment where curiosity turns into longing.
+At home, things are stored carefully when they matter. Winter clothes go into labeled bins. Important papers go into drawers that are not opened casually. Fragile objects are not left where they can be knocked over.
 
-At school, you keep your head down. You don’t volunteer too loudly. You don’t embarrass yourself on purpose for laughs. You observe who gets punished for wanting things openly and you decide you won’t be that target.
+Care often looks like containment.
 
-It makes you steady.
+So you begin treating the memory that way.
 
-It also makes you private in a way people sometimes mistake for confidence.`,
+You do not stop caring about the oak tree. You do not stop caring about *GIRL_NAME*. You simply stop reaching for those feelings every time they rise. You keep them behind your ribs where they cannot be made awkward by daylight or reduced by careless words.
 
-`Sometimes, though, storage leaks.
+It makes you seem calm.
 
-A hot day will arrive unexpectedly, and the smell of cut grass will hit you like a hand pressed gently against your chest.
+Maybe even mature.
 
-You’ll remember the warm brush of fingers on your shoulder and feel something uncomfortable—because the body remembers warmth even when the brain tries to be logical.
+Adults like calm. Teachers like children who do not make every feeling public. The world often rewards whatever looks contained, even when containment is only another word for restraint.`,
 
-You don’t talk about it.
+`But hidden things still have weight.
 
-You don’t write about it.
+On certain afternoons, when the air smells like warm dirt and cut grass, you feel the old place return in your body before it returns in thought. You remember the shade beneath the branches. The careful tone in her voice. The sense that some parts of life become important before you understand why.
 
-You don’t even admit to yourself that you’ve been saving it.
+You do not talk about any of this.
 
-But you have.
+You become skilled at carrying meaning quietly.
 
-Quietly.
+By the time ten arrives, you are steadier on the outside than many children your age. More self-contained. More careful. Less likely to let the inside of you spill out where someone else might mishandle it.
 
-And in the quiet, it grows its own weight.
+You will walk into the next part of the story with the appearance of calm and the habit of restraint, believing that protecting something means keeping it hidden.
 
-When the time comes to step into high school, you will walk in with practiced calm—holding something fragile behind your ribs, convinced you’ve protected it by hiding it.
+Sometimes that is true.
 
-You won’t know yet that protection can also be distance.`
+Sometimes it is only another form of distance.`
     ],
     choices: [
       {
         text: "Continue.",
-        action: { type: "advanceYears", years: 2 }, // 12 -> 14
-        action2: { type: "applyDrift", profile: "childhood_to_highschool_guarded" },
-        goto: "ch2_01_recognition"
+        action: { type: "advanceYears", years: 1 },
+        goto: "ch2_01_new_environment"
       }
     ]
   },
@@ -173,67 +207,48 @@ You won’t know yet that protection can also be distance.`
   {
     id: "mw_01_apply_romantic",
     phase: "meanwhile",
-    age: 12,
+    age: 9,
     title: "Meanwhile",
     pages: [
 `You replay it until it becomes a private myth.
 
-The mind is good at making altars out of scraps: a blade of grass, a touch, a look that felt like a question.
+Not a fantasy exactly.
 
-You remember the oak tree not as a tree but as a stage—where something important happened without anyone else noticing.
+Something quieter than that.
 
-You return to it in your imagination the way you return to a favorite page in a book. Not because the page changes, but because you do.
+A way of giving shape to a feeling before you are old enough to call it anything solid.
 
-At twelve, you start attaching meaning to things you didn’t understand at nine.
+You return to the oak tree in memory even when you are not there. You remember the first stone in her hand, the treasure hidden beneath the roots, the way she spoke about the tree as if it could keep secrets better than people could.
 
-You begin to suspect that moments can be seeds.
+You begin to feel that some places are larger on the inside than they are from the road.
 
-That some encounters exist not to be completed immediately, but to be carried forward.
+The oak becomes that kind of place.
 
-Sometimes you try to reconstruct her face and fill in the gaps with invention.
+A small corner of the neighborhood that somehow contains more than it should. More waiting. More mystery. More possibility than a patch of dirt and roots has any obvious right to hold.`,
 
-Sometimes you catch yourself doing it and feel embarrassed, as if someone could see inside your head and judge you for wanting what you can’t even name.`,
+`You do not become dramatic about it.
 
-`In school, you watch other kids form crushes loudly, dramatically, like they’re auditioning for attention.
+That would not suit you.
 
-You don’t do that.
+Your life still has routine. Homework still gets done. Dinner still arrives on time. You still live inside a house where normalcy has its own quiet authority.
 
-You keep your myth private.
+But inside that order, you let one small part of yourself remain unfinished on purpose.
 
-You become careful about what you reveal.
+You wonder what *GIRL_NAME* remembers.
+You wonder whether she also carries pieces of those afternoons when she is not there.
+You wonder whether unfinished things are sometimes meant to stay unfinished for a while so they can grow larger in private.
 
-You become quietly intense.
+By the time ten arrives, you are still very much a child.
 
-People might call you “thoughtful.”
+But you have already begun to understand the pleasure and danger of carrying meaning inward.
 
-What they mean is: hard to read.
-
-But you read yourself constantly.
-
-You wonder whether the girl from the oak tree is still in the neighborhood.
-
-You wonder if you missed her by one street, one summer, one turn of the head.
-
-You wonder if she remembers the warmth of her own fingers the way you remember it.
-
-And because you romanticize the moment, you also romanticize the waiting.
-
-Waiting begins to feel meaningful, like a ritual.
-
-Like the world owes you a second meeting because the first one was unfinished.
-
-When high school comes, you will arrive not only with nerves, but with a quiet expectation that the universe sometimes repeats its patterns.
-
-You will not say this out loud.
-
-But you will feel it in your bones.`
+You will step into the next part of the story with expectation already living in you—not loud enough to embarrass you, but steady enough to shape what you notice when the world changes.`
     ],
     choices: [
       {
         text: "Continue.",
-        action: { type: "advanceYears", years: 2 },
-        action2: { type: "applyDrift", profile: "childhood_to_highschool_romantic" },
-        goto: "ch2_01_recognition"
+        action: { type: "advanceYears", years: 1 },
+        goto: "ch2_01_new_environment"
       }
     ]
   },
@@ -241,65 +256,58 @@ But you will feel it in your bones.`
   {
     id: "mw_01_apply_present",
     phase: "meanwhile",
-    age: 12,
+    age: 9,
     title: "Meanwhile",
     pages: [
 `You decide it was nothing.
 
-Not because it was.
+Or at least, nothing that needs to be carried so carefully.
 
-Because practicality is a skill, and you practice it like a language.
+This is not coldness.
 
-You tell yourself it was just a collision in the grass. Just a brief touch. Just a summer afternoon that felt important because you were a child and everything felt important back then.
+It is practicality.
 
-You learn to categorize experiences quickly: useful, useless, forgettable.
+You tell yourself the oak tree is just a place at the edge of the neighborhood. The buried stone is just a game children made real because the afternoon was long. *GIRL_NAME* is simply someone you know there, and that is enough.
 
-You become good at moving forward without always turning your head.
+In some ways this helps.
 
-When the oak tree crosses your mind, you cut it off gently. Like snipping a loose thread before it unravels.
+It keeps things simple.
 
-The memory becomes weather: it happened, it passed.
+You do not get lost in questions that have no immediate answer. You do not build a whole inner world out of fragments and then feel foolish for having done it.
 
-And for long stretches, you believe it.
+You stay close to what is in front of you.
 
-You become calmer than many of your peers.
+School.
+Home.
+Dinner.
+Sleep.
+The next day.
 
-Less dramatic.
+There is safety in that.
 
-More grounded.
+There is competence in that too.`,
 
-Adults like that. Teachers like that.
+`Still, the body is not always as practical as the mind.
 
-They call you “mature.”`,
+Sometimes you catch yourself noticing the old route to the oak tree before you mean to. Sometimes a certain kind of heat in the air makes the memory return with surprising clarity. Sometimes you remember a sentence she said and feel, for one brief second, that it mattered more than you have allowed.
 
-`But the body has its own language, and it does not always agree with the brain.
+You do not dwell on those moments.
 
-On certain hot days, when the air is thick and the cicadas scream, you feel something strange—a brief tightening in your chest, like your skin remembers what your mind refuses to honor.
+You move on.
 
-Sometimes you dream of the ditch. Not as a story, but as a location: grass, heat, light fractured through leaves.
+And because of that, you become grounded in a way that adults often praise. Less dramatic. Less prone to getting carried away. More willing to trust what is visible instead of what is implied.
 
-You wake up irritated, because dreams feel like cheating.
+By the time ten arrives, you believe you know how to keep life manageable: focus on what is here, not what might be hidden beneath it.
 
-Because your mind is reaching backward without permission.
+That skill will help you.
 
-In middle school, you learn that other people attach importance to romance like it’s a requirement.
-
-You roll your eyes. You pretend it’s silly. You stay above it.
-
-But some part of you watches, quietly, with the understanding that you chose practicality not because you don’t feel—because feelings are inconvenient.
-
-When high school arrives, you will walk in thinking you are immune to old ghosts.
-
-And then you will discover that some ghosts aren’t haunting you.
-
-They’re waiting.`
+It will also make it easier to underestimate the things that matter before they become convenient.`
     ],
     choices: [
       {
         text: "Continue.",
-        action: { type: "advanceYears", years: 2 },
-        action2: { type: "applyDrift", profile: "childhood_to_highschool_present" },
-        goto: "ch2_01_recognition"
+        action: { type: "advanceYears", years: 1 },
+        goto: "ch2_01_new_environment"
       }
     ]
   },
@@ -307,75 +315,57 @@ They’re waiting.`
   {
     id: "mw_01_apply_direct",
     phase: "meanwhile",
-    age: 12,
+    age: 9,
     title: "Meanwhile",
     pages: [
 `You learn to say things before they vanish.
 
-Not grand confessions—small honesty, practiced daily.
-
-You become someone who tries.
-
-In middle school, this shows up in the smallest ways: you answer when someone asks a question instead of shrugging. You raise your hand even when you’re unsure. You tell your mother the truth when she asks if you’re okay.
-
-Sometimes it goes badly.
-
-Sometimes you regret speaking, because honesty can make you vulnerable.
-
-But you notice something important: regret feels different when you tried.
-
-It has edges.
-
-It teaches you.
-
-Silence-based regret just spreads. It becomes fog. It becomes a mood you can’t explain.
-
-So you keep practicing.
-
-You become better at naming what you feel.
-
 Not perfectly.
 
-But more than you used to.`,
+You are still ten only in the distance, not yet in full. You still hesitate. You still feel your throat tighten sometimes when the right words arrive half a second too late.
 
-`When you think about the oak tree, you don’t force it into “nothing.”
+But after the first years under the oak, you begin noticing that silence has its own cost.
 
-You let it be what it was: a moment you didn’t finish.
+Not every silence is peaceful.
+Not every unspoken thing stays gentle.
 
-You occasionally picture yourself asking her name.
+So you practice in small ways.
 
-Not with melodrama—just with clarity.
+You answer honestly when your mother asks if something is bothering you.
+You ask questions in class even when you are not completely certain.
+You try to say what you mean while it is still small enough to hold in your hands.
 
-You imagine yourself saying, “Hey,” like you belong in your own mouth.
+This does not make you fearless.
 
-And because you practice directness, you also practice courage.
+It makes you less willing to lose moments simply because they are awkward.`,
 
-You start to believe that if you ever see her again, you won’t freeze.
+`When you think about *GIRL_NAME* and the oak tree, you do not force the memory into a box or reduce it into something ordinary just because ordinary would be easier.
 
-You won’t pretend it doesn’t matter.
+You let it stay real.
 
-You’ll at least try to make the moment real.
+A place.
+A person.
+A set of afternoons that changed the texture of your childhood.
 
-This doesn’t make you fearless.
+You begin to believe that if something matters, it is worth meeting directly.
 
-It makes you prepared.
+Maybe not grandly.
+Maybe not all at once.
+But directly.
 
-When high school comes, you will still feel nervous. You will still feel exposed in your new body and new hallways.
+By the time ten arrives, that belief has started shaping you.
 
-But you will carry one private skill that many people don’t develop until much later:
+You will step into the next part of the story still nervous, still young, still learning.
 
-The ability to step forward first.
+But you will also carry one advantage that many people do not discover until much later:
 
-To say the thing before it turns into a lifetime of “almost.”
-
-And when the hallway smell of floor wax and nervous sweat hits you for the first time, you will feel, deep down, that your story is about to pick up a sentence you once dropped.`
+the instinct to move toward meaning instead of away from it.`
     ],
     choices: [
       {
         text: "Continue.",
-        action: { type: "advanceYears", years: 2 },
-        action2: { type: "applyDrift", profile: "childhood_to_highschool_direct" },
-        goto: "ch2_01_recognition"
+        action: { type: "advanceYears", years: 1 },
+        goto: "ch2_01_new_environment"
       }
     ]
   }

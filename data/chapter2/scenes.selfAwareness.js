@@ -1,5 +1,9 @@
-// Chapter 2 — Section 3: Self-Awareness (Age 16–17)
-// Expanded, psychologically intense, multi-page.
+// data/chapter2/scenes.selfAwareness.js
+// Chapter 2 — Scene: Self-Awareness (Age 16)
+// Realigned with Chapter 1, New Environment, Familiar, Different, and Proximity:
+// the emotional shift here is not sudden attraction from nowhere, but the first
+// clear internal understanding that their years of closeness now carry desire,
+// risk, and choice.
 
 window.CH2_SELF_AWARENESS = [
   {
@@ -9,324 +13,256 @@ window.CH2_SELF_AWARENESS = [
     title: "Self-Awareness",
     pages: [
 
-`Spring arrived without asking permission.
+`Spring did not arrive dramatically.
 
-The air shifted first—warmer, heavier, carrying the smell of thawed soil and something blooming that no one could quite name. Windows stayed open longer. The light stretched later into the evening.
+It loosened things.
+Snowmelt darkened the curb edges for a few weeks. The air stopped biting quite so hard in the mornings. Windows opened in classrooms that had spent all winter smelling faintly of old heat, dry marker ink, and too many people trying not to look tired.
 
-At sixteen, the world felt louder.
+At sixteen, change rarely announced itself cleanly.
+It accumulated.
+A voice that no longer sounded borrowed.
+Shoulders beginning to settle into themselves.
+A face in the mirror that looked familiar enough to claim and strange enough to keep checking.
 
-Not externally.
+*BOY_NAME* felt that strangeness everywhere now.
+Not only in his body.
+In his awareness of being inside it.
 
-Internally.
+He had spent enough years becoming himself that childhood no longer felt close when adults talked about it.
+But it did feel close in very specific places:
+the bend in the road
+the ditch
+the oak tree
+and the girl who had somehow remained part of his life through every version in between.
 
-*BOY_NAME* had grown into his height, mostly. His shoulders had filled out. His voice had stabilized into something deeper, steadier.
+That continuity should have made this easier.
+Sometimes it did.
+Sometimes it made everything harder.
+Because it meant the feeling growing between them was attached to history, not fantasy.`,
 
-But his body no longer felt neutral.
 
-It felt like it belonged to forces he didn’t fully control.
+`After the bus that winter, he could no longer pretend he was only confused by proximity.
+The conversation had changed something.
+Not outwardly. School still looked the same. Teachers still assigned work as if adolescence were happening somewhere else. The bus still took the same route home.
 
-He noticed things now.
+But inwardly, a line had been crossed.
 
-Not abstractly.
+He understood now that silence was no longer neutral.
+It was a choice.
+So was looking.
+So was not looking.
+So was every ordinary moment in which he let himself notice how easily his attention returned to *GIRL_NAME*.
 
-Viscerally.
+What unsettled him was not simply that he wanted to be near her.
+That had been true for years.
 
-The way a girl’s hair moved when she turned quickly in a hallway.
+What unsettled him was that wanting had changed shape.
+It was no longer only comfort.
+No longer only habit.
+No longer only the private satisfaction of finding the same person again and again in the structure of his days.
 
-The curve of someone’s waist when they reached into a locker.
+Now there was heat in it.
+Curiosity sharpened by imagination.
+Tenderness complicated by the fact that his body had entered the story too.
 
-The subtle rhythm of breathing when someone laughed too hard.
+He disliked how little language anyone gave you for that.
+Adults warned teenagers about consequences. Other boys turned everything into performance. Health class reduced the subject to diagrams and caution.
+None of those things explained what to do when affection and desire pointed at the same person and neither feeling cancelled the other out.`,
 
-These observations arrived uninvited, intrusive, charged.
 
-He didn’t know what to do with them.
+`They studied together in the library more often now.
+Not because anyone arranged it.
+Because it kept happening.
 
-Health class had given definitions.
+The library after school had its own atmosphere. The brighter overhead lights dimmed first, leaving the lamps over certain tables to create small islands of yellow against the blue-gray quiet. Chairs scraped occasionally. Pages turned. A printer coughed somewhere near the front desk. The whole room felt supervised from a distance but emotionally private.
 
-It had not given integration.`,
+They sat at the same long table near the back windows.
+Sometimes they actually studied.
+Sometimes they read the same paragraph three times because the nearness itself kept interrupting thought.
 
-`Desire at sixteen was not romantic poetry.
+That afternoon, rain tapped softly against the glass.
+She was writing with her head bent slightly, one sleeve pushed back from her wrist. A strand of hair kept falling forward. Each time she tucked it behind her ear, he noticed the motion with embarrassing precision.
 
-It was distraction.
+He had become very good at noticing without moving.
+The way she went still when concentrating.
+The way her mouth shifted just slightly when she disagreed with something she was reading.
+The fact that she had stopped apologizing for taking up space beside him.
 
-It was heat under the skin that appeared without warning.
+Under the table, their knees touched.
+Neither of them moved away.
+They almost never did anymore.
 
-It was walking down a hallway and realizing your eyes had lingered somewhere too long.
+The contact was small.
+Its effect was not.`,
 
-It was feeling embarrassed by your own thoughts.
 
-He tried to manage it.
+`At nine, he had wanted to know her.
+At twelve, he had wanted her to remain in his life.
+At fifteen, he had wanted the closeness not to disappear just because they had both begun understanding it.
 
-Tried to compartmentalize.
+At sixteen, the wanting had become more difficult to separate into neat categories.
 
-Tried to convince himself that it was temporary, chemical, not meaningful.
+He thought about kissing her sometimes.
+Not in the loud exaggerated way boys at school talked about girls they barely understood.
+Not as conquest. Not as proof. Not as something to collect and turn into a story afterward.
 
-And then there was *GIRL_NAME*.
+He thought about it the way he thought about many important things now: with both hope and caution.
+How close would he have to lean before she understood?
+Would she stay still?
+Would she smile first?
+Would the moment feel like crossing a distance or admitting it had already been crossed slowly over years?
 
-When he looked at other girls, it felt like static.
+The thought embarrassed him, but not because it felt cheap.
+Because it did not.
+Because it felt meaningful enough to matter if he was wrong.
 
-Noise.
+He had realized something uncomfortable over the last year.
+A crush could survive misunderstanding.
+What this was might not.
 
-When he looked at her, the static quieted.
+That was the danger.
+Not desire itself.
+The possibility that speaking too carelessly could place weight on something they had spent years building in quieter ways.`,
 
-The noise reorganized itself into something cleaner.
 
-More deliberate.
+`She looked up from her notes and caught him noticing the smudge of graphite along the side of her hand.
 
-He did not know whether that meant what he felt for her was deeper—or whether he had simply known her longer.
+“What?” she asked.
 
-He only knew that when she sat beside him, the chaos inside his body felt focused instead of scattered.`,
+“Nothing.”
 
-`They studied together in the library now.
+Her eyes narrowed slightly. Not annoyed. Familiar.
+“You always say that when it isn’t nothing.”
 
-Not because they had to.
+He almost smiled.
+She was right.
 
-Because it had become habit.
+“There’s pencil on your hand,” he said.
 
-The library at dusk was different from the daytime version. The fluorescent overhead lights dimmed slightly. Lamps glowed on individual tables, creating islands of yellow light in a sea of shadow.
+She turned it over, examined the side of it, then gave a soft laugh. “Occupational hazard.”
 
-It felt private without being secret.
+He should have let the moment go.
+Instead he reached for the napkin from beside his notebook and held it out.
 
-They sat side by side at a long wooden table near the back.
+For half a second, she only looked at him.
+Then she took it.
+Their fingers touched.
+A small contact. Dry skin. Warmth. Nothing visible to anyone else.
+Enough to make his focus leave the room entirely.
 
-Their knees touched under the table.
+“Thanks,” she said.
 
-At first, it had been accidental.
+He nodded as if the exchange had cost him nothing.
+It had cost him concentration for the next several minutes.
 
-Now, neither of them moved.
+Self-awareness, he was learning, was not only the knowledge that you felt something.
+It was the humiliating precision with which you began noticing what that feeling did to your body:
+how quickly your pulse reacted
+how carefully you began arranging your face
+how one brief touch could echo longer than a whole conversation.`,
 
-The contact felt intentional in its stillness.
 
-He could feel the warmth radiating from her leg through fabric.
+`Across the room, two students were whisper-fighting over a shared worksheet with the urgency of people who needed everyone nearby to know they were almost dating.
+The performance was so obvious it made him want to look away.
 
-He could feel his pulse in his own wrist resting on the table.
+That was what made his own situation feel harder to classify.
+What existed between him and *GIRL_NAME* did not resemble anyone else’s version.
+There had been no official beginning.
+No declared status.
+No dramatic shift from strangers to something more.
 
-He wondered if she could hear it.
+There had only been years.
 
-He wondered if she felt the same awareness crawling across her skin.`,
+The oak tree.
+The buried stone.
+The ordinary accumulation of classrooms, walks, recesses, hallways, bus rides, pauses, and returns.
 
-`She pushed her hair back with a pencil, leaving a faint gray smudge on her cheek.
+He knew the exact shape of the risk now.
+If he misread a stranger, embarrassment would eventually fade.
+If he mishandled this, the damage would spread backward and forward at the same time.
+It would touch memory as well as possibility.
 
-He noticed immediately.
+That thought made him protective.
+It also made him restless.
 
-He always noticed.
+He was beginning to understand that restraint could come from care.
+But so could honesty.
+And the older he got, the less those two things behaved like opposites.
+Sometimes they felt like rival versions of courage.`,
 
-He wanted to reach across and wipe it away.
 
-Not because the smudge mattered.
+`When they packed up to leave, the rain had slowed to a mist. The library windows reflected the room back at them in soft dark shapes.
+He slid his notebook into his bag. She was still gathering loose papers, tapping their edges together until they aligned.
 
-Because touching her mattered.
+“Do you ever think,” he asked, then stopped.
 
-Because he wanted permission to cross the invisible boundary that still existed between them.
+She looked at him.
+“Think what?”
 
-He thought about kissing her.
+He almost said never mind.
+He had spent years protecting himself with almost.
 
-The thought no longer arrived abstractly.
+But the bus in winter came back to him.
+The word we.
+The fact that silence had started to feel less safe precisely because it mattered.
 
-It arrived with detail.
+“About how long we’ve been…” He gestured vaguely, irritated by how inadequate his hands were at language. “Like this.”
 
-With imagined proximity.
+Her expression changed, but only slightly.
+More attention, not alarm.
 
-With imagined warmth.
+“Like what?” she asked softly.
 
-He wondered what her breath would feel like against his face.
+He let out a breath through his nose.
+There it was again: the chance to retreat by pretending he didn’t mean anything specific.
 
-He wondered whether she had thought about it too—or whether he was alone in this escalation.
+He could take it.
+Or he could stand inside the discomfort and be at least a little clearer than he usually was.
 
-He felt suddenly self-conscious.
+Outside, a car hissed through the wet street.
+Inside, the library felt suspended around the space between them.
 
-Self-awareness at sixteen is brutal.
+He realized that whatever happened next, this was the real change from childhood.
+Not that he felt more.
+That he now understood he was responsible for what he did with what he felt.`,
 
-It is not just awareness of your body.
 
-It is awareness of how your body might be perceived.
+`They walked out together under the shallow overhang by the school entrance and paused there while the mist thinned further.
+The pavement smelled dark and clean. Water gathered at the curb in narrow reflective lines. Across the parking lot, everything looked briefly sharper, as if rain had outlined the world instead of blurring it.
 
-He adjusted his posture slightly, trying to look composed.
+She shifted her bag higher on her shoulder and glanced at him with the steady patience that had always made it harder to lie badly.
 
-He felt foolish for trying.
+He thought about the first boundary he had ever crossed toward her — off pavement, toward the ditch, toward the tree, into a place that felt different because it was.
+Back then he had not known what the crossing meant.
+Now he did.
 
-He felt foolish for caring.`,
+Growing up, he realized, was not becoming less vulnerable.
+It was understanding vulnerability well enough to choose it on purpose.
 
-`He had noticed something else this year.
+He did not yet know whether the right next step was to name the tension directly or protect it a little longer.
+But he knew the question itself had become unavoidable.
 
-Other boys talked loudly about girls.
+That knowledge settled into him with surprising calm.
+Not certainty.
+Something steadier.
 
-About who they wanted.
-
-About what they imagined.
-
-They spoke with a bravado that sounded hollow to him.
-
-They reduced attraction to conquest.
-
-They made desire into competition.
-
-He did not feel competitive.
-
-He felt uncertain.
-
-What he felt for *GIRL_NAME* did not fit into the vocabulary of locker-room exaggeration.
-
-It felt slower.
-
-Heavier.
-
-More dangerous.
-
-Because losing it would hurt.
-
-Losing a crush would sting.
-
-Losing this would fracture something foundational.
-
-He did not know how to measure that risk.
-
-He only knew it existed.`,
-
-`“Do you think we’re going to be okay?” he asked suddenly.
-
-The question escaped before he could refine it.
-
-She turned toward him slowly.
-
-“Okay for what?” she asked.
-
-He gestured vaguely between them, aware of how absurd it must look.
-
-“For… whatever this is.”
-
-He hated how imprecise that sounded.
-
-But precision felt impossible.
-
-She studied him for a moment.
-
-Not dismissive.
-
-Not confused.
-
-Evaluating.
-
-“I think we’re fine,” she said softly. “I just… I don’t want to rush it.”
-
-The sentence landed gently.
-
-But it did not calm him completely.
-
-Because what counted as rushing?
-
-Was wanting to kiss her rushing?
-
-Was thinking about her late at night rushing?
-
-Was feeling his body react to her presence something he was supposed to suppress?
-
-He didn’t want to be reckless.
-
-He didn’t want to be cowardly either.`,
-
-`He shifted slightly in his seat.
-
-Their thighs pressed more firmly together.
-
-The contact felt electric—slow, spreading, impossible to ignore.
-
-He watched her face carefully.
-
-She did not pull away.
-
-She did not lean in further either.
-
-She simply remained.
-
-Remaining is powerful.
-
-Remaining says: I feel this too, but I am not afraid of it.
-
-Or maybe: I feel this too, and I am choosing not to let it control me.
-
-He couldn’t tell which.
-
-He wanted to ask her if she thought about him the way he thought about her.
-
-He wanted to ask if she felt that sharp awareness when their hands brushed.
-
-He wanted clarity.
-
-Clarity, however, threatened the fragile equilibrium they had built over years.`,
-
-`They packed up their books slowly.
-
-The library had grown quieter. The janitor’s cart squeaked faintly somewhere in the distance.
-
-When they stood to leave, his hand brushed against hers.
-
-This time, he did not withdraw immediately.
-
-He let the contact linger half a second longer than necessary.
-
-She didn’t move away.
-
-The silence between them felt different now—not heavy, not unresolved.
-
-Charged.
-
-On the walk home, the air smelled like cut grass and something sweet blooming in yards.
-
-Streetlights cast long shadows across the pavement.
-
-He realized something that unsettled him:
-
-Puberty wasn’t just about physical change.
-
-It was about choosing how to respond to change.
-
-He could push.
-
-He could wait.
-
-He could pretend.
-
-He could risk.
-
-The hunger in him was real.
-
-The affection was real too.
-
-The question was whether he trusted their foundation enough to let the hunger speak—or whether protecting the foundation required restraint.
-
-As they reached her street, she looked at him in that steady way she had always done.
-
-The oak tree had been an accident.
-
-This was not.
-
-And for the first time, he understood that growing up wasn’t about losing innocence.
-
-It was about deciding what to do with power.
-
-He felt it in his body.
-
-He felt it in his voice.
-
-He felt it in the quiet space between them.
-
-And he knew the next step would not happen by accident.
-
-It would happen by choice.`
+The sense that whatever happened between them next would not be an accident of age or timing.
+It would be shaped by attention.
+By choice.
+By whether he was brave enough to let honesty and care exist in the same sentence.`
 
     ],
     choices: [
       {
-        text: "Ask the question: 'Do you think we'll ever kiss?'",
+        text: "Ask, carefully, if she has been thinking about this too.",
         effects: { communication: +2, trust: +1 },
-        memoryAdd: ["ch2_asked_about_kiss"],
+        memoryAdd: ["ch2_asked_if_she_feels_it_too"],
         goto: "ch2_04_dream_couple"
       },
       {
-        text: "Leave it unspoken. Let the tension build.",
+        text: "Leave it unspoken and protect the tension a little longer.",
         effects: { affection: +2, sharedHistory: +1 },
-        memoryAdd: ["ch2_left_unspoken"],
+        memoryAdd: ["ch2_protected_the_tension"],
         goto: "ch2_04_dream_couple"
       }
     ]

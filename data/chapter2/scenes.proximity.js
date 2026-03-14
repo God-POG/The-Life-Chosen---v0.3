@@ -1,5 +1,9 @@
-// Chapter 2 — Section 2: Proximity (Age 15–16)
-// Expanded, multi-page, slow-burn tension, emotional layering.
+// data/chapter2/scenes.proximity.js
+// Chapter 2 — Scene: Proximity (Age 15)
+// Realigned with Chapter 1, New Environment, and Familiar, Different:
+// they have known each other continuously for years, and this scene is about
+// routine closeness becoming physically and emotionally charged rather than
+// about first closeness from nothing.
 
 window.CH2_PROXIMITY = [
   {
@@ -9,311 +13,280 @@ window.CH2_PROXIMITY = [
     title: "Proximity",
     pages: [
 
-`By winter, the school had stopped feeling new.
+`By winter, the school had stopped pretending to be unfamiliar.
 
-The fluorescent lights were no longer hostile. The locker combination no longer required rehearsal. The science wing’s cold air felt almost familiar.
+The hallways no longer felt oversized. The locker combination lived in his hands now instead of only in his head. Even the fluorescent lights seemed less aggressive than they had in September, though maybe that was only what happened when something irritating became routine often enough.
 
-Familiarity is a strange comfort at fifteen. It doesn’t make you confident. It makes you less visibly uncertain.
+At fifteen, routine mattered more than adults tended to notice.
 
-*BOY_NAME* had grown again over the summer.
+It was how people ended up part of your life without anyone announcing it.
+A seat saved without saying so.
+A pause in a hallway that lasted a little longer than necessary.
+A person you expected to be there before you actually saw them.
 
-His shoulders had widened slightly. His voice had settled into something steadier. The awkward angles of fourteen were smoothing into something less fragile.
+That was what *GIRL_NAME* had become.
 
-He had learned where to stand in the cafeteria to avoid being alone. He had learned how to laugh at the right volume. He had learned that walking too fast made you look nervous and walking too slow made you look arrogant.
+Not new.
+Not rediscovered.
+Not some sudden event.
 
-He had learned performance.
+A pattern.
 
-But proximity to *GIRL_NAME* did not feel like performance.
+And patterns, he was learning, could become important so gradually that by the time you realized it, the feeling already had years behind it.`,
 
-It felt like gravity.`,
 
-`They weren’t in every class together.
+`They had been in each other’s orbit for too long to pretend otherwise.
 
-That would have been too obvious. Too easy.
+First the oak tree.
+Then ordinary school years.
+Then the strange sharpening that came with getting older, when familiar things stopped feeling neutral simply because your body and mind were no longer neutral either.
 
-Instead, they orbited.
+New Environment had been the first time school itself made that familiarity feel public.
+Familiar, Different had made the shift impossible to ignore.
 
-One shared class in the morning.
+Now the change was quieter but harder to defend against.
 
-A hallway crossing near lunch.
+It lived in repetition.
 
-The same bus route home.
+They were not in every class together, but they kept arriving in the same parts of the day. A shared class in the morning. A hallway crossing before lunch. Library tables after school sometimes. The bus ride home more often than either of them had planned out loud.
 
-At first, they sat two seats apart.
+None of those things looked dramatic.
 
-Not intentionally—just enough space to make it deniable.
+That was exactly why they mattered.
 
-Then one seat apart.
+Important things in his life rarely announced themselves at the beginning.
+They accumulated.`,
 
-Then, gradually, the same seat.
 
-No discussion.
+`The bus became one of those small territories that belonged more to routine than intention.
 
-No declaration.
+At first they had sat near each other because it was convenient.
+Then because it was normal.
+Then because choosing not to would have felt more obvious than simply letting the pattern continue.
 
-Just small adjustments that made distance feel unnecessary.
+The ride home was long enough to create its own atmosphere.
+Windows fogged at the edges in cold weather. Wet coats carried in the smell of outside air, old fabric, and slush drying into the ridges of rubber flooring. The heater worked unevenly, always too much or not enough, as if it resented being asked to decide.
 
-The bus ride home became its own territory.
+Students were louder at the beginning of the route.
+Then they got tired.
+Then the bus settled.
 
-A long route winding through suburbs and shallow hills, past houses where porch lights flickered on as dusk settled like a soft curtain.
+By the time it reached the halfway point, the whole vehicle often felt suspended between places — no longer school, not yet home.
 
-Outside, the world blurred into gray and amber.
+Inside that suspended space, closeness became easier to notice.
+Harder to explain away.`,
 
-Inside, the windows fogged with breath.
 
-It was a moving container.
+`The first time their legs stayed pressed together for more than a second, the bus had turned too sharply and nobody had moved away fast enough.
 
-And inside it, something was growing.`,
+Or maybe that was only the version of the moment that could be said out loud.
 
-`The first time their thighs pressed together, it was accidental.
+What he remembered most was not the contact itself.
+It was what happened after.
 
-Or at least, accidental enough to be defended as such.
+She could have shifted.
+He could have shifted.
+The excuse was available to both of them.
 
-The bus hit a pothole.
+Neither of them used it.
 
-The jolt shifted bodies.
+The pressure remained there between denim and winter fabric: warm, steady, deniable only if neither of them looked too closely at what their bodies already understood.
 
-Denim met denim.
+He stared out the fogged window and became absurdly aware of everything at once.
+His own breathing.
+The heat in his leg.
+The vibration of the bus through the seat.
+The fact that she was still there.
 
-He froze.
+At nine, being near her had felt like curiosity.
+At ten, it had felt like familiarity made public.
+At fourteen, it had felt like recognition with roots.
 
-Not visibly.
+At fifteen, proximity had become physical enough that he could not keep mistaking it for abstraction.`,
 
-But internally, something locked into place.
 
-Heat traveled up his leg like electricity seeking a path.
+`He began to notice details with the intensity of someone trying not to admit he was memorizing them.
 
-He waited for her to move away.
+The way she rested one wrist loosely over the strap of her bag.
+The way she leaned slightly toward the aisle when speaking, then toward the window when thinking.
+The way loose strands of hair caught against the collar of her coat when the bus heater blew too hard.
 
-She didn’t.
+These things should have been trivial.
+They weren’t.
 
-She adjusted slightly—not to separate, but to stabilize.
+They felt structural.
 
-The contact remained.
+The same way he had once learned the oak tree by its roots, its crossing stone, the patch of dirt where treasure waited beneath the surface, he was now learning her through repetition and nearness.
 
-The heater on the bus was unreliable. Some days it worked too well, blasting dry air that made throats raw. Other days it failed entirely, leaving windows streaked with condensation and breath visible in small white puffs.
+But adolescence changed the meaning of observation.
 
-On the colder days, proximity had an excuse.
+It was no longer just knowledge.
+It was hunger complicated by affection.
+Attention sharpened by restraint.
+The difficult realization that wanting to touch someone and wanting to protect what exists between you are not always aligned, even when both feelings are sincere.`,
 
-On the warmer days, it did not.
 
-They still sat close.`,
+`Other people at school made desire look noisy.
 
-`He learned her small habits.
+Boys in the locker room talked too loudly about girls they barely knew. Couples performed entire relationships in public: breakups in hallways, reconciliations by vending machines, jealousy turned into theater because teenagers often mistook visibility for depth.
 
-The way she tapped her foot when thinking.
+What existed between him and *GIRL_NAME* did not resemble any of that.
 
-The way she tucked hair behind her ear when uncertain.
+That should have made it easier to trust.
+Sometimes it did.
+Sometimes it only made him more aware of how undefended it was.
 
-The way her hands rested open in her lap when she was relaxed, fingers curved slightly inward.
+They had never built themselves around spectacle.
+They had built themselves around return.
 
-He learned that she hated the smell of wet wool and avoided heavy coats even in December.
+And return creates a different kind of intimacy.
+Not louder.
+More consequential.
 
-He learned that she preferred window seats but would give them up if he arrived first.
+Because if someone has been woven into enough ordinary days, losing them would not feel like losing an exciting possibility.
+It would feel like tearing a seam out of something you had been living inside for years.`,
 
-These details did not feel trivial.
 
-They felt like architecture.
+`One evening, the heater failed almost completely.
 
-Like the foundation of something neither of them had defined.
+Cold climbed up through the metal floor of the bus and settled into shoes, ankles, hands. Windows filmed over until the outside world became mostly light and shadow. Students complained for a while, then gave up and folded inward, each person trying to preserve warmth without admitting they cared.
 
-He began to anticipate her presence before she arrived.
+He slid into the seat beside her with the half-casual confidence of someone who had done it enough times to make it ordinary.
 
-He could sense the shift in air when she stepped onto the bus.
+Their sleeves brushed.
+Then their shoulders.
+Then their thighs settled together with the familiar not-accident of repeated choice.
 
-It wasn’t mystical.
-
-It was awareness sharpened by desire.`,
-
-`Desire.
-
-The word had started to mean something different this year.
-
-It no longer lived only in abstract health-class diagrams.
-
-It lived in his body.
-
-In the way his breath shortened when she leaned closer.
-
-In the way his hands felt heavy when they were near hers.
-
-In the way his thoughts flickered, uninvited, toward images he didn’t yet know how to handle.
-
-He noticed other girls now too.
-
-That was new.
-
-The curve of someone’s waist in a hallway.
-
-The swing of hair across shoulders.
-
-Laughter that lingered longer than necessary.
-
-But those sensations felt scattered.
-
-Noise.
-
-When he sat beside *GIRL_NAME*, the noise quieted.
-
-It didn’t disappear.
-
-It aligned.
-
-There was something steadier in what he felt for her.
-
-Less explosive.
-
-More consuming.`,
-
-`One evening, the bus heater died entirely.
-
-Cold seeped through the metal floor and into shoes. Windows fogged thick enough to blur the outside world into abstract shapes.
-
-Students complained loudly at first, then gradually fell quiet, conserving warmth.
-
-He slid into the seat beside her without asking.
-
-Their arms brushed.
-
-Her sleeve was rough fabric against his skin.
-
-She looked at him.
-
-“It’s freezing,” she said, breath visible between them.
+“It’s freezing,” she said, breathing into her hands.
 
 “Yeah.”
 
-He shifted slightly closer.
+He looked at the window instead of at her.
+Then, after a second: “Your hands are red.”
 
-Close enough that their thighs pressed fully, not just at the edges.
+She gave a short laugh. “Thank you. I grew them myself.”
 
-His heart rate accelerated.
+He smiled despite himself.
+The joke loosened something, but not enough.
+The awareness remained.
 
-He wondered if she could feel it through layers of fabric and air.
+Cold has a way of making every source of warmth feel more specific.
+More dangerous.`,
 
-He wondered if he wanted her to.`,
 
-`“Do you think we’re weird?” she asked suddenly.
+`For a while they just sat there, listening to the bus rattle through familiar streets.
 
-The question caught him off guard.
+Then she traced a small shape in the condensation on the glass with one fingertip.
+Not words.
+Just a circle, then another inside it.
 
-“Weird how?”
+“Do you ever think,” she asked, “that everyone else makes everything louder than it needs to be?”
 
-She stared at the fogged window, tracing a small circle in the condensation with her fingertip.
+He knew immediately she was not talking only about the bus.
 
-“Everyone else is always talking about who they like,” she said. “Or who they’re dating. Or what they did.”
+“Yeah,” he said.
 
-Her finger paused mid-circle.
+She kept her finger against the fogged glass.
+“I mean… people always have to say what something is. Right away.”
 
-“We just… sit here.”
+He looked down at their knees touching.
+At the shared line of warmth between them.
 
-He felt something tighten in his chest.
+He understood the subject before she named it.
+And because he understood it, answering felt risky.
 
-He had noticed that too.
+Not because the truth was complicated.
+Because it wasn’t.
 
-Other couples were loud. Public. Performative.
+The truth was that whatever this was had already been growing for years.
+The complicated part was deciding when a truth should be spoken aloud instead of protected by silence.`,
 
-They posted photos. They announced anniversaries that lasted two weeks.
 
-They argued in hallways with the intensity of minor wars.
+`“Maybe,” he said slowly, “some things get ruined if people talk about them too early.”
 
-What he had with her did not look like that.
+She turned to look at him.
+Not sharply.
+Just fully.
 
-It was quieter.
+“Do you think that’s what we’re doing?” she asked.
 
-Which made it harder to categorize.
+The word we landed harder than anything else in the conversation.
 
-“I don’t think we’re weird,” he said slowly.
+Not because he had never imagined it.
+Because hearing it from her made the possibility suddenly shared instead of private.
 
-He stared at their knees touching, at the way the contact felt intentional now.
+He could feel his pulse in his throat now.
+In his wrists.
+In the leg still pressed against hers.
 
-“I think we’re just… waiting.”
+“I don’t know,” he said, and hated how small the sentence sounded.
+Then he tried again.
+“I think maybe we’re trying not to say something wrong.”
 
-“For what?” she asked, turning toward him fully now.
+Her expression softened in a way he would think about later.
+Not pity.
+Not amusement.
+Recognition.
 
-The bus lurched as it turned a corner, throwing their bodies closer together.
+Outside, streetlights passed in pale broken bands.
+Inside, the bus kept carrying them through the ordinary route home while the atmosphere between them became anything but ordinary.`,
 
-He didn’t pull away.
 
-“For the right time,” he said.
+`Her stop came too quickly.
+It always did when the conversation mattered.
 
-The words sounded older than he felt.
+The bus slowed with a tired groan. She stood, shifting her bag higher onto her shoulder, then paused in the aisle beside him for one half-second longer than necessary.
 
-But they were true.
+It was such a small pause that anyone else would have missed it.
 
-He didn’t want to rush this.
-
-He didn’t want to break it by naming it too early.
-
-But he also didn’t want to lose it by never naming it at all.`,
-
-`The bus slowed near her stop.
-
-The driver honked once—impatient but routine.
-
-She stood, adjusting the strap of her bag.
-
-For a split second, her hand hovered near his knee.
-
-Close enough that he felt warmth through denim.
-
-She didn’t touch.
-
-Not quite.
+But their story had always been built out of moments like that.
+The held beat.
+The almost-question.
+The decision not to step back.
 
 “See you tomorrow,” she said.
 
 “Yeah.”
 
-The door opened.
+He wanted to say more.
+Something clearer.
+Something that would keep the warmth of this exact moment from dissolving once the door opened and the cold came in.
 
-Cold air rushed in like interruption.
+But he had not become fearless just because he had become aware.
 
-She stepped onto the sidewalk and turned once before walking toward her house.
+So he let the sentence remain small, and maybe because she knew him well enough to hear what wasn’t inside it, she gave him that slight steady smile before stepping down onto the sidewalk.
 
-He watched her until she disappeared behind a hedge.
+Cold air entered the bus in a rush.
+Then the door folded shut again.
 
-Then he sat back, alone in the seat that still held her warmth.
+He watched her through the blurred window until she disappeared behind the hedge line near her street.
+Only then did he lean back into the seat, still warm where she had been, and understand with uncomfortable clarity that proximity had changed shape.
 
-The bus resumed motion.
+It was no longer only comfort.
+No longer only habit.
+No longer only the easy return of a familiar person.
 
-Streetlights streaked past the window.
+It had become a threshold.
 
-He pressed his palm against the cold glass and watched his reflection blur.
+And thresholds, he knew by now, do not stay thresholds forever.
+Sooner or later, someone either crosses them or retreats from them.
 
-He realized something unsettling and undeniable:
-
-He didn’t just want her attention.
-
-He wanted her presence.
-
-He wanted to know what it would feel like to stop hovering at the edge of something and step fully into it.
-
-But stepping fully meant risk.
-
-It meant speaking.
-
-And speaking could change the shape of everything.
-
-The bus rolled forward.
-
-Winter deepened.
-
-And between them, the space grew smaller—not because they moved faster, but because neither of them stepped back.`
+The bus rolled forward through winter dusk.
+He stayed where he was, looking at his own faint reflection in the glass, feeling how much smaller the distance between them had become — and how much riskier that made silence.`
 
     ],
     choices: [
       {
-        text: "Deepen the conversation. Ask what she thinks the right time is.",
-        effects: { communication: +2, affection: +1 },
-        memoryAdd: ["ch2_proximity_open"],
-        goto: "ch2_03_self_awareness"
+        text: "Ask what she meant by 'we'.",
+        effects: { communication: +2, trust: +1, affection: +1 },
+        memoryAdd: ["ch2_proximity_defined_we"],
+        goto: "ch2_02b_social_friction"
       },
       {
-        text: "Let the silence hold. Keep it unspoken.",
+        text: "Let the closeness speak for itself.",
         effects: { affection: +2, sharedHistory: +1 },
-        memoryAdd: ["ch2_proximity_silent"],
-        goto: "ch2_03_self_awareness"
+        memoryAdd: ["ch2_proximity_let_it_sit"],
+        goto: "ch2_02b_social_friction"
       }
     ]
   }

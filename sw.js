@@ -1,6 +1,10 @@
 // sw.js — dynamic caching, no manual asset list
+// Strategy:
+//  - HTML navigations: network-first (fresh updates), fallback to cache
+//  - Static assets (js/css/images/fonts): cache-first, fallback to network
+//  - Any successful GET response gets cached automatically
 
-const VERSION = "v1";
+const VERSION = "v0.2";
 const CACHE_NAME = `tlc-dynamic-${VERSION}`;
 
 // OPTIONAL: allow instant activation on update

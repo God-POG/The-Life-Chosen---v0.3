@@ -1,5 +1,7 @@
-// Chapter 2 — Section 4: Dream Couple (Age 17)
-// Expanded, social ecology, identity pressure, quiet intimacy.
+// data/chapter2/scenes.dreamCouple.js
+// Chapter 2 — Dream Couple (Age 17)
+// Realigned with Chapter 1, New Environment, Proximity, and Self-Awareness.
+// Keeps the same scene id, choice structure, flags, and goto into Graduation.
 
 window.CH2_DREAM_COUPLE = [
   {
@@ -9,267 +11,325 @@ window.CH2_DREAM_COUPLE = [
     title: "Dream Couple",
     pages: [
 
-`By senior year, they were a couple in the way people assume gravity is a rule.
+`By senior year, people had started treating them like a fact.
 
-Not declared.
+Not an official fact. Not something anyone had confirmed.
+Just the kind that formed through repetition until everyone stopped asking where it came from.
 
-Not announced.
+Teachers paired them together without thinking too hard about it. Friends made room for both of them in the same stretch of hallway, the same lunch table, the same after-school drift between parking lot and bus loop. If one of them showed up alone, someone usually asked where the other was, not in a teasing way exactly, but with the absent confidence people used for things they had already filed into the structure of the world.
 
-Just treated as true.
+At seventeen, high school ran on that kind of filing system.
+Who belonged with whom.
+Who was temporary.
+Who was dramatic.
+Who was safe.
+Who would probably still be standing beside each other after the last bell of the year.
 
-It happened gradually, the way a path forms in grass: one person walks there, then another, then it becomes the obvious route.
+Somehow, over time, he and *GIRL_NAME* had been placed in that last category.
 
-Teachers paired them together without asking.
+It should have felt comforting.
+Mostly, it did.
+But comfort and pressure were beginning to live very close together now.`,
 
-Friends angled their bodies to make room for both of them in a circle, as if it would be strange for only one to arrive.
 
-Someone once asked *GIRL_NAME* if she needed a “plus one” for a dance and the question sounded so wrong that it turned into laughter before it could become awkward.
+`The strange part was that the assumption was not entirely wrong.
 
-They didn’t correct anyone.
+What existed between them was real.
+It had been real for years.
+The oak tree had made that true before either of them had the vocabulary for it. So had the treasure under the roots. So had the ordinary accumulation that followed — school years, recesses, sidewalks, bus rides, library tables, pauses in hallways, the small instinctive returns that had become the hidden architecture of his life.
 
-Correcting would require explaining a thing they still hadn’t named.
+But being seen as a couple by other people was different from deciding, together, what they were.
 
-And naming it still felt dangerous.
+Other people flattened things.
+They liked categories because categories were easier to talk about than uncertainty.
+Boyfriend. Girlfriend. Practically dating. Basically married. Destined. Weirdly intense. Cute.
 
-Not because they were ashamed.
+He heard all of those versions in one form or another over the course of that year.
+Sometimes from friends.
+Sometimes from people who barely knew them.
+Once from a teacher who smiled too knowingly while assigning a partner project.
 
-Because they were afraid of changing the temperature of something that had survived by being quiet.`,
+Each time, something in him tightened.
 
-`High school had its own mythology.
+Not because he wanted to deny her.
+Because he did not.
+Because he wanted whatever this was to stay intact when named, and he had begun understanding that names could stabilize things — but they could also expose them.`,
 
-Couples were either dramatic or performative or temporary.
 
-People dated like they were trying on outfits. Every relationship came with an audience.
+`At home, the world still moved in dependable sequences.
+Dinner happened when it was supposed to. His mother still folded concern into ordinary questions so neatly that it took skill to notice she was checking on him. His father still watched first and spoke second, as if observation were a form of patience.
 
-They had avoided becoming entertainment.
+That steadiness had shaped him more than he liked to admit.
+It meant he did not trust chaos, even when chaos called itself romance.
+It meant he was suspicious of loud feelings displayed carelessly in public and then abandoned the moment they became inconvenient.
 
-They didn’t fight loudly in hallways. They didn’t post constant photos. They didn’t declare anniversaries measured in weeks.
+High school was full of that kind of carelessness.
+Couples broke up by vending machines and got back together beside gym doors. People posted photographs as if evidence could substitute for depth. Boys said girls' names like trophies. Girls pretended not to care, then cared in public where caring could become social currency.
 
-They just… existed together.
+He and *GIRL_NAME* had built something different.
+Not because they were above all that.
+Because their history had made a different kind of intimacy possible.
 
-It was subtle in ways that made other people curious.
+They knew how to sit beside each other in near-silence and still feel accompanied.
+They knew how to let a moment remain small without dismissing its meaning.
+They knew how return could matter more than spectacle.
 
-It was visible in ways that made other people assume.
+That made what they had feel sturdier.
+It also made the possibility of mishandling it feel much more serious.`,
 
-At football games, they sat shoulder-to-shoulder in the cold, sharing a blanket without speaking. When the marching band played, they watched the field together like it was a shared screen.
 
-After school, they walked the same routes. They waited at the same corners. Their bodies had learned the rhythm of being near.
+`By spring, other people's assumptions had started taking on the texture of a prediction.
 
-Sometimes they held hands.
+At lunch, one of his friends said, "So are you two going to prom together or are we all still pretending this is mysterious?"
 
-Sometimes they didn’t.
+The table laughed.
+Not cruelly.
+That almost made it worse.
 
-Sometimes their fingers brushed and neither acknowledged it.
+*BOY_NAME* looked down at his tray for half a second too long before answering, which was enough for everyone to interpret the pause however they wanted. Across from him, *GIRL_NAME* rolled her eyes and said, "Maybe we're pretending your personality is mysterious too," which got a bigger laugh and moved the conversation somewhere safer.
 
-Sometimes they leaned close enough that classmates raised eyebrows and then immediately looked away, like witnessing something private.
+But afterward, when they were walking to class with the hallway traffic pressing around them, he said quietly, "Sorry about that."
 
-That was the strange thing:
+She glanced at him. "For what?"
 
-They weren’t hiding.
+"People."
 
-They just weren’t performing.
+Her mouth tilted slightly at one corner. "People are always people."
 
-And in a place where performance was currency, that made them feel almost… sacred.`,
+That should have ended it.
+Instead she added, after a moment, "They're not completely wrong though."
 
-`*BOY_NAME* began to notice the ways people described them.
+He looked at her then, fully, but she was watching the hallway ahead.
+The sentence stayed between them the rest of the walk to class like something warm that neither of them touched directly.
 
-“Those two are basically married.”
+Not completely wrong.
 
-“They’re so cute, it’s annoying.”
+He carried it with him all afternoon.`,
 
-“Are they even actually together?”
 
-Teachers made comments like, “You two work well as a team,” with a tone that suggested they meant more than homework.
+`Senior year had changed time.
 
-Even his mother, one night at dinner, asked casually, “Is *GIRL_NAME* coming over this weekend?” as if it was already on the calendar.
+Not because clocks moved differently.
+Because every ordinary thing now came with an awareness of ending attached to it.
+The route to third period. The smell of gym varnish. The row of dented blue lockers near the science wing. The library windows in late rain. The bus turning past the strip of hedges before her stop.
 
-His father looked up from his plate briefly, eyes flicking between *BOY_NAME* and his mother, then returned to eating with the quiet expression of someone who had seen this kind of story before.
+All of it had started feeling temporary in a way that made him protective and restless at the same time.
 
-*BOY_NAME* felt something tighten in his chest every time someone named them.
+People talked about the future constantly now.
+Applications. Scholarships. Apartments. Gap years. Work. Debt. Cities. Distance.
+The adults in his life framed those conversations as practical preparation, but underneath the practicality he could feel the real pressure: everyone was being asked to imagine a self beyond the architecture that had contained them so far.
 
-Not because he didn’t want it.
+And when he imagined that future honestly, he kept running into the same fear.
 
-Because he did.
+High school had held them in each other's orbit almost automatically.
+Classes overlapped. Streets overlapped. Daily life overlapped.
 
-But wanting it made it vulnerable.
+Adulthood would not do that for them.
 
-If they were “official,” then they could be “broken up.”
+If they wanted to keep becoming part of the same structure, it would require choosing each other in a more visible way than childhood or adolescence ever had. He was beginning to understand that drift rarely felt dramatic from the inside. Things were lost gradually, through postponement, through vagueness, through trusting that something important would survive without being protected.
 
-A title makes something legible to other people.
+He did not want to trust that.
+Not with her.`,
 
-Legible things can be commented on, judged, predicted, ridiculed.
 
-He didn’t want their closeness to become a topic for people who didn’t understand it.
+`One Friday evening in late spring, they ended up sitting on the curb outside his house after walking back from a study session that had contained very little studying.
 
-He didn’t want to hand something precious to the casual cruelty of teenagers.`,
+The neighborhood looked almost too peaceful in the long light.
+Lawns recently cut. Mailboxes throwing narrow shadows across the pavement. A sprinkler clicking methodically in a yard down the street, each turn followed by the soft rush of water through grass. Somewhere farther away, a garage door groaned open and then settled again.
 
-`And yet, there was another truth he couldn’t ignore:
+The air smelled like warm concrete and the green dampness that came after hoses had been running.
+It reminded him, faintly, of childhood evenings when time still seemed large enough to waste.
 
-The longer they avoided naming it, the more pressure built.
+*GIRL_NAME* sat beside him with her knees angled slightly toward the street.
+Her shoes tapped lightly against the curb now and then — a small restless motion he had learned to read over the years. Not panic. Thought gathering itself.
 
-Because senior year wasn’t just about dances and finals.
+He had the irrational feeling that the whole evening was balanced on that small movement of her heel.
 
-It was about futures.
+After a while she asked, "Do you ever think people decided who we were before we did?"
 
-College brochures piled on kitchen counters. Application deadlines circled in red ink. Friends talked about moving away like it was inevitable, like distance was just a normal tax you paid to become an adult.
+He let out a breath through his nose. "Yeah."
 
-People spoke in the future tense constantly.
+"Does that bother you?"
 
-“Next year.”
+He considered lying.
+Not because he wanted to hide from her.
+Because the truthful answer felt bigger than the question.
 
-“After graduation.”
+"A little," he said. Then, after a second: "Mostly because I don't want them to be the ones deciding it."
 
-“When we leave.”
+She looked at him then.
+Not surprised.
+Just quiet in the way that meant he had said something real enough to matter.`,
 
-And every time someone said “leave,” *BOY_NAME* felt an uncomfortable tug in his stomach.
 
-High school had held them in the same orbit automatically.
+`A breeze moved down the street and lifted a few strands of her hair across her cheek. She tucked them back with a motion so familiar it made his chest tighten.
 
-Adulthood would not.
+"I keep thinking about next year," she said.
 
-Adulthood would demand choices.
+He nodded.
+He had been thinking about little else.
 
-The thought made him restless.
+"And?" he asked.
 
-He started thinking about their relationship not only as feeling, but as structure.
+She stared toward the streetlight at the corner, though it had not turned on yet. "And I don't know what happens to things like this when everything else changes."
 
-How do you carry “us” into a world that prefers “me”?
+Things like this.
 
-How do you keep something quiet alive when life gets loud?
+The phrase should have felt evasive.
+Instead it felt accurate.
+Because what existed between them had always been partly built from things that resisted immediate naming.
+The place beneath the oak tree before it had language.
+The buried stone before it had significance.
+The bus rides before they admitted the warmth mattered.
+The library table before he understood his own body had joined the story.
 
-He didn’t know.
+But now they were seventeen, and ambiguity no longer felt harmless.
+It felt like a delay with consequences attached.
 
-He only knew he didn’t want to lose her to an ordinary kind of drifting.`,
+He looked at her hands resting between them on the curb.
+He had held one of them before.
+A few times now. Enough to know how natural it felt and how much he still noticed it every single time.
 
-`Late spring brought the feeling of endings even before graduation made it official.
+"I don't want it to disappear just because we were too careful," he said.
 
-The air warmed. The grass smelled too green, like the world was trying too hard to be alive. The sky stayed light longer, as if it didn’t want the day to end.
+The sentence surprised him with its own clarity.
+Maybe because it had been true for so long that it no longer needed polishing.`,
 
-One evening, they sat on the curb outside his house.
 
-The street was quiet. A neighbor’s sprinkler clicked steadily in the background, turning slightly with every tick like a slow, patient metronome.
+`She let that sit for a moment.
+The sprinkler kept clicking somewhere down the block. A car passed slowly, windows open, music low enough that it arrived only as bass and drift.
 
-*GIRL_NAME* kicked her heels gently against the concrete.
+"I don't either," she said.
 
-It was a nervous habit he had come to recognize: she did it when she was deciding whether to risk a sentence.
+There it was again — not drama, not declaration, just the steady honesty that had always made her harder to ignore.
 
-“Do you think we’re waiting too long?” she asked.
+He thought about all the versions of them other people carried.
+The almost-couple.
+The inevitable couple.
+The couple who somehow acted married without ever saying anything out loud.
 
-“For what?” he said, though he already knew.
+What unsettled him most was that the dream those people projected onto them was both shallow and uncomfortably close to something he wanted.
 
-“For us,” she said quietly. “To say it.”
+He did want a future that kept her in it.
+He did want the relief of not pretending uncertainty was sophistication.
+He did want the private thing between them to become strong enough to survive public time.
 
-The words didn’t sound dramatic.
+But wanting a shared future at seventeen felt different from daydreaming.
+It had logistics inside it.
+Colleges. Distance. Schedules. Parents. Money. The ordinary hard surfaces of adult life.
 
-They sounded tired.
+Loving someone in adolescence, he was beginning to understand, always contained a fantasy version and a structural version.
+The fantasy asked: what if this became forever?
+The structural version asked: what would we actually have to do for this not to dissolve?
 
-Like a question she had been holding for months and couldn’t carry alone anymore.
+He no longer trusted one without the other.`,
 
-He looked at her.
 
-She was beautiful in a way that made him feel both grateful and afraid. Her hair was pulled back, exposing the line of her neck. The small curve where her jaw met her throat. The pulse he had noticed since the hallway when they were fourteen.
+`"Do you ever think," she asked quietly, "that maybe we've already been acting like we're together for so long that saying it shouldn't feel this hard?"
 
-He wanted to trace that line with his finger.
+He laughed once, softly, because the sentence landed with too much precision.
+"Yeah," he said. "All the time."
 
-He didn’t.
+"So why does it?"
 
-He swallowed and tried to find the right language.
+He knew the answer immediately.
+Because saying something out loud changes the kind of future it can have.
+Because once a thing is real in language, you can no longer hide from what happens if it breaks.
+Because his whole childhood had taught him that what mattered deserved care, and sometimes he still confused care with delay.
 
-“I don’t want to rush it,” he admitted. “But I also… I don’t want to wait forever.”`,
+He could have said all that.
+Instead he said, "Because if I say it wrong, I care about that." 
 
-`She stared at her hands for a moment, fingers laced tightly.
+Her expression softened.
+"I know," she said.
 
-“I’m scared that if we say it, everything changes,” she said.
+Then, after a moment: "I care too."
 
-He exhaled slowly.
+The words did not resolve anything.
+They deepened it.
 
-“It will change,” he replied. “But maybe not in a bad way.”
+He reached for her hand then, not impulsively and not by accident. He took it in the open air of his quiet street while the evening kept going around them as if nothing irreversible had happened.
 
-They sat in silence that felt dense with meaning.
+Her fingers closed around his at once.
+No hesitation. No performance. Only recognition.
 
-He could hear the sprinkler.
+The contact calmed him more than it excited him, and that calm carried its own force.
+It felt less like beginning from nothing than like finally placing weight on a bridge they had spent years building one board at a time.`,
 
-He could hear a car passing two streets away.
 
-He could hear his own heartbeat—steady, stubborn.
+`They sat like that for a long while.
+Not speaking much. Not needing to. The street darkened gradually around them. Porch lights came on in careful squares. The sprinkler shut off with a final metallic click and the sudden quiet afterward felt larger than the sound had.
 
-He thought about other couples he had seen.
+Eventually she rested her head lightly against his shoulder.
+The gesture was so gentle it might have been missed by anyone driving past.
+To him it felt enormous.
 
-How they fought over tiny things because they had nothing else to fight about.
+He thought about the first afternoon beneath the oak tree, how impossible it would have been then to understand this version of closeness. Not because the roots weren't already there. Because time had to accumulate around them before the shape became visible.
 
-How they mistook jealousy for devotion.
+Maybe that was why other people called them a dream couple.
+Not because they looked glamorous.
+Because from the outside they looked effortless, and people often mistake history for ease.
 
-How they treated commitment like a performance.
+But there had never been anything effortless about learning how to carry another person carefully over this many years.
+It had taken silence, mistakes, return, patience, and an uncomfortable number of almosts.
+It had taken choosing not to turn each other into spectacle.
+It had taken letting childhood sincerity survive adolescence without becoming naive.
 
-He didn’t want that.
+He wanted to say all of that.
+Instead he said the simplest true thing available.
 
-He wanted the quiet.
+"I don't want to keep pretending we can leave this undefined forever."
 
-He wanted the softness.
+She lifted her head and looked at him.
+The last light in the sky had thinned to blue-gray, leaving her face gentler at the edges.
 
-He wanted the way she could sit beside him for an hour without speaking and it still felt like connection.
+"Then maybe we shouldn't," she said.`,
 
-But he also wanted more than softness.
 
-He wanted certainty.
+`The sentence settled over the evening with surprising steadiness.
+Not pressure.
+Permission.
 
-He wanted to be allowed to say: you are mine, not as a claim, but as a vow.
+They were quiet again after that, but it was a different quiet than before.
+Less protective. More decided.
 
-He reached for her hand.
+They talked, eventually, in the practical fragments that important things often require.
+Not full plans. Not promises too large for their age.
+Just the first honest shaping of intention.
 
-This time he didn’t half-touch or brush or pretend it was accidental.
+Graduation was coming.
+Everything around them was already treating it like a threshold.
+Maybe it could be one for them too — not because the ceremony mattered, but because marking a change on purpose sometimes helped you step into it without pretending it happened by itself.
 
-He took her hand properly, fingers interlaced.
+"Graduation night," she said after a while, testing the idea as much as naming it.
 
-Her palm was warm, and she squeezed back immediately, like she had been waiting for his hand to find hers.
-
-The simple act rearranged something in him.
-
-Not a confession.
-
-A promise.
-
-A private agreement that they were no longer just orbiting.
-
-They were choosing.`,
-
-`They didn’t say “boyfriend” or “girlfriend” that night.
-
-But they talked about graduation like it was a doorway.
-
-A threshold where they could stop being cautious children under an oak tree and become something sturdier.
-
-*GIRL_NAME* leaned her head briefly on his shoulder. Her hair brushed his cheek, and he felt his whole body relax, as if the contact had permission.
-
-When she lifted her head again, she looked at him like she was asking for courage.
-
-Like she was offering hers too.
-
-They made a decision—not about the future itself, but about the timing of a sentence.
-
-They would wait until graduation night.
+He looked at her, understood immediately, and nodded.
 
 Not because waiting was safer.
+Because choosing a moment together felt different from continuing to drift.
+It gave their caution a direction instead of letting it become habit again.
 
-Because waiting gave it meaning.
+By the time she stood to go home, the streetlights were fully on and the pavement had given back most of the day's stored warmth.
+He stood too. For one second they faced each other in the ordinary dark of a familiar street, both aware that something had changed without yet becoming fully visible from the outside.
 
-A ritual.
+She squeezed his hand once before letting go.
+"Don't back out," she said, and there was humor in it, but not only humor.
 
-A marker.
+He smiled. "You either."
 
-Something that would make the transition feel deliberate rather than accidental.
+Then she started down the sidewalk and turned once halfway to the corner.
+He was still standing there.
+She gave him that small steady smile he had learned years ago to take seriously, then kept walking.
 
-As the sun sank lower and streetlights flickered on one by one, *BOY_NAME* realized something simple and unsettling:
+He stayed where he was until she disappeared from sight.
 
-They had spent years waiting for the right time.
+The night around him felt ordinary.
+The house behind him would still smell like dinner and detergent and the calm order of things being where they belonged. Tomorrow would still contain homework, errands, routines, and all the mechanics of a life that did not care about inner turning points.
 
-Maybe the right time wasn’t something that arrived.
+But inside that ordinary structure, something had finally taken clearer form.
 
-Maybe it was something you built.
-
-And building required speaking.
-
-Soon.`
+The dream was no longer only what other people projected onto them.
+It had become a question they were now brave enough to answer for themselves.`,
 
     ],
     choices: [
@@ -277,13 +337,13 @@ Soon.`
         text: "Confess before graduation. Make it official now.",
         action: { type: "setFlag", key: "confess_early" },
         effects: { trust: +2, affection: +2 },
-        goto: "ch2_05_graduation"
+        goto: "ch2_045_almost_confession"
       },
       {
         text: "Wait for graduation night. Let the ending become the beginning.",
         action: { type: "setFlag", key: "confess_graduation" },
         effects: { sharedHistory: +2 },
-        goto: "ch2_05_graduation"
+        goto: "ch2_045_almost_confession"
       }
     ]
   }
